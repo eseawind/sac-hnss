@@ -1,0 +1,9 @@
+D:\新SIS平台\SACSIS\SACSIS\DBType\bin\Debug\DBType.dll
+D:\新SIS平台\SACSIS\SACSIS\DBType\bin\Debug\DBType.pdb
+D:\新SIS平台\SACSIS\SACSIS\DBType\bin\Debug\SAC.DBLink.dll
+D:\新SIS平台\SACSIS\SACSIS\DBType\bin\Debug\SAC.DBLink.pdb
+D:\新SIS平台\SACSIS\SACSIS\DBType\obj\Debug\ResolveAssemblyReference.cache
+D:\新SIS平台\SACSIS\SACSIS\DBType\obj\Debug\DBType.dll
+D:\新SIS平台\SACSIS\SACSIS\DBType\obj\Debug\DBType.pdb
+D:\新SIS平台\SACSIS\SACSIS\DBType\bin\Debug\SAC.DBOperations.dll
+D:\新SIS平台\SACSIS\SACSIS\DBType\bin\Debug\SAC.DBOperations.pdb

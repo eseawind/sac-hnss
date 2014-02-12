@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="297d470b-790e-4ad7-a59f-68b22d98ac8d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:3017/WebService/SLWCFRIA.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SLWCFRIA.disco" MetadataType="Disco" ID="3b2e0b15-93df-4992-9e48-c2db3bc8e015" SourceId="1" SourceUrl="http://localhost:3017/WebService/SLWCFRIA.svc?disco" />
+    <MetadataFile FileName="SLWCFRIA.xsd" MetadataType="Schema" ID="1d22ad7b-0353-4f14-918f-f15e0c0d9df9" SourceId="1" SourceUrl="http://localhost:3017/WebService/SLWCFRIA.svc?xsd=xsd0" />
+    <MetadataFile FileName="SLWCFRIA.wsdl" MetadataType="Wsdl" ID="a75cc116-3870-4872-b2fd-50ebbba89ab9" SourceId="1" SourceUrl="http://localhost:3017/WebService/SLWCFRIA.svc?wsdl" />
+    <MetadataFile FileName="SLWCFRIA1.wsdl" MetadataType="Wsdl" ID="7c4f0f82-da68-415b-bb45-4e84c717964b" SourceId="1" SourceUrl="http://localhost:3017/WebService/SLWCFRIA.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="SLWCFRIA1.xsd" MetadataType="Schema" ID="ca7b3422-9245-4c90-9dfd-fe0df5050d3f" SourceId="1" SourceUrl="http://localhost:3017/WebService/SLWCFRIA.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

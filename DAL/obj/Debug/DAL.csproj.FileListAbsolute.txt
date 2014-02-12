@@ -1,0 +1,42 @@
+D:\新SIS平台\SACSIS\SACSIS\DAL\bin\Debug\DAL.dll
+D:\新SIS平台\SACSIS\SACSIS\DAL\bin\Debug\DAL.pdb
+D:\新SIS平台\SACSIS\SACSIS\DAL\bin\Debug\SAC.DBOperations.dll
+D:\新SIS平台\SACSIS\SACSIS\DAL\bin\Debug\SAC.Helper.dll
+D:\新SIS平台\SACSIS\SACSIS\DAL\bin\Debug\SAC.DBOperations.pdb
+D:\新SIS平台\SACSIS\SACSIS\DAL\bin\Debug\SAC.Helper.pdb
+D:\新SIS平台\SACSIS\SACSIS\DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\新SIS平台\SACSIS\SACSIS\DAL\obj\Debug\DAL.dll
+D:\新SIS平台\SACSIS\SACSIS\DAL\obj\Debug\DAL.pdb
+D:\新SIS平台\SACSIS\SACSIS\DAL\bin\Debug\Oracle.DataAccess.dll
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\DAL\bin\Debug\DAL.dll
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\DAL\bin\Debug\DAL.pdb
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\DAL\bin\Debug\Oracle.DataAccess.dll
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\DAL\bin\Debug\SAC.DBOperations.dll
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\DAL\bin\Debug\SAC.Helper.dll
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\DAL\bin\Debug\SAC.DBOperations.pdb
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\DAL\bin\Debug\SAC.Helper.pdb
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\DAL\obj\Debug\DAL.dll
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\DAL\obj\Debug\DAL.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\DAL\bin\Debug\DAL.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\DAL\bin\Debug\DAL.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\DAL\bin\Debug\IBM.Data.DB2.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\DAL\bin\Debug\Oracle.DataAccess.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\DAL\bin\Debug\SAC.DBOperations.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\DAL\bin\Debug\SAC.Helper.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\DAL\bin\Debug\SAC.DBOperations.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\DAL\bin\Debug\SAC.Helper.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\DAL\obj\Debug\DAL.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\DAL\obj\Debug\DAL.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\DAL\bin\Debug\DAL.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\DAL\bin\Debug\DAL.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\DAL\bin\Debug\IBM.Data.DB2.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\DAL\bin\Debug\Oracle.DataAccess.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\DAL\bin\Debug\SAC.DBOperations.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\DAL\bin\Debug\SAC.Helper.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\DAL\bin\Debug\SAC.DBOperations.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\DAL\bin\Debug\SAC.Helper.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\DAL\obj\Debug\DAL.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\DAL\obj\Debug\DAL.pdb

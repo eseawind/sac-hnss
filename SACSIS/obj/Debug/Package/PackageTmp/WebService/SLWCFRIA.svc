@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="SACSIS.WebService.SLWCFRIA" CodeBehind="SLWCFRIA.svc.cs" %>

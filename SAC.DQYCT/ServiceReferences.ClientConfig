@@ -1,0 +1,19 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <customBinding>
+                <binding name="CustomBinding_SLWCFRIA"  closeTimeout="00:5:00" openTimeout="00:5:00" receiveTimeout="00:5:00" sendTimeout="00:5:00">
+                    <binaryMessageEncoding  />
+                    <httpTransport maxBufferSize="2147483647"
+                       maxReceivedMessageSize="2147483647"/>
+                </binding>
+            </customBinding>
+        </bindings>
+      
+        <client>
+            <endpoint address="http://localhost:3017/WebService/SLWCFRIA.svc"
+                binding="customBinding" bindingConfiguration="CustomBinding_SLWCFRIA"
+                contract="SLRoom.SLWCFRIA" name="CustomBinding_SLWCFRIA" />
+        </client>
+    </system.serviceModel>
+</configuration>

@@ -1,0 +1,15 @@
+D:\新SIS平台\SACSIS\SACSIS\SAC.Helper\obj\Debug\ResolveAssemblyReference.cache
+D:\新SIS平台\SACSIS\SACSIS\SAC.Helper\bin\Debug\SAC.Helper.dll
+D:\新SIS平台\SACSIS\SACSIS\SAC.Helper\bin\Debug\SAC.Helper.pdb
+D:\新SIS平台\SACSIS\SACSIS\SAC.Helper\obj\Debug\SAC.Helper.dll
+D:\新SIS平台\SACSIS\SACSIS\SAC.Helper\obj\Debug\SAC.Helper.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\SAC.Helper\bin\Debug\SAC.Helper.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\SAC.Helper\bin\Debug\SAC.Helper.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\SAC.Helper\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\SAC.Helper\obj\Debug\SAC.Helper.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\SAC.Helper\obj\Debug\SAC.Helper.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SAC.Helper\bin\Debug\SAC.Helper.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SAC.Helper\bin\Debug\SAC.Helper.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SAC.Helper\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SAC.Helper\obj\Debug\SAC.Helper.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SAC.Helper\obj\Debug\SAC.Helper.pdb

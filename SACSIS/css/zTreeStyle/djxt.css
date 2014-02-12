@@ -1,0 +1,45 @@
+﻿ul, li
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+div.content_wrap
+{
+	width: 600px;
+	height: 800px;
+}
+div.content_wrap div.left
+{
+	float: left;
+	width: 270px;
+}
+div.content_wrap div.right
+{
+	float: right;
+	/*border: 1px solid #617775;*/
+}
+div.zTreeDemoBackground
+{
+	width: 270px;
+	/*height: 782px;*/
+	text-align: left;
+}
+
+ul.ztree
+{
+	float:left;
+	margin-top: 0px;
+/*	border: 1px solid #617775;*/
+	width: 240px;
+	height: 100%;
+	overflow-y: scroll;
+	overflow-x: auto;
+}

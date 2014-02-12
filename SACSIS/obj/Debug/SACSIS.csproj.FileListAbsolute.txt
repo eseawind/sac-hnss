@@ -1,0 +1,56 @@
+D:\新SIS平台\SACSIS\SACSIS\SACSIS\bin\SACSIS.dll
+D:\新SIS平台\SACSIS\SACSIS\SACSIS\bin\SACSIS.pdb
+D:\新SIS平台\SACSIS\SACSIS\SACSIS\obj\Debug\ResolveAssemblyReference.cache
+D:\新SIS平台\SACSIS\SACSIS\SACSIS\obj\Debug\SACSIS.dll
+D:\新SIS平台\SACSIS\SACSIS\SACSIS\obj\Debug\SACSIS.pdb
+D:\新SIS平台\SACSIS\SACSIS\SACSIS\bin\SAC.DBOperations.dll
+D:\新SIS平台\SACSIS\SACSIS\SACSIS\bin\SAC.DBOperations.pdb
+D:\新SIS平台\SACSIS\SACSIS\SACSIS\bin\SAC.Helper.dll
+D:\新SIS平台\SACSIS\SACSIS\SACSIS\bin\SAC.Helper.pdb
+D:\新SIS平台\SACSIS\SACSIS\SACSIS\bin\BLL.dll
+D:\新SIS平台\SACSIS\SACSIS\SACSIS\bin\DAL.dll
+D:\新SIS平台\SACSIS\SACSIS\SACSIS\bin\BLL.pdb
+D:\新SIS平台\SACSIS\SACSIS\SACSIS\bin\DAL.pdb
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\SACSIS\bin\SACSIS.dll
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\SACSIS\bin\SACSIS.pdb
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\SACSIS\bin\BLL.dll
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\SACSIS\bin\Newtonsoft.Json.dll
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\SACSIS\bin\SAC.DBOperations.dll
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\SACSIS\bin\DAL.dll
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\SACSIS\bin\SAC.Helper.dll
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\SACSIS\bin\BLL.pdb
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\SACSIS\bin\SAC.DBOperations.pdb
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\SACSIS\bin\DAL.pdb
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\SACSIS\bin\SAC.Helper.pdb
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\SACSIS\obj\Debug\ResolveAssemblyReference.cache
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\SACSIS\obj\Debug\SACSIS.dll
+D:\新SIS平台\SACSIS(汉能副本)\SACSIS\SACSIS\obj\Debug\SACSIS.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\SACSIS\bin\SACSIS.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\SACSIS\bin\SACSIS.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\SACSIS\bin\BLL.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\SACSIS\bin\Newtonsoft.Json.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\SACSIS\bin\SAC.DBOperations.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\SACSIS\bin\DAL.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\SACSIS\bin\SAC.Helper.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\SACSIS\bin\IBM.Data.DB2.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\SACSIS\bin\BLL.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\SACSIS\bin\SAC.DBOperations.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\SACSIS\bin\DAL.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\SACSIS\bin\SAC.Helper.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\SACSIS\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\SACSIS\obj\Debug\SACSIS.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS(汉能副本)\SACSIS\SACSIS\obj\Debug\SACSIS.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SACSIS\bin\SACSIS.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SACSIS\bin\SACSIS.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SACSIS\bin\BLL.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SACSIS\bin\SAC.DBOperations.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SACSIS\bin\DAL.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SACSIS\bin\SAC.Helper.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SACSIS\bin\IBM.Data.DB2.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SACSIS\bin\BLL.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SACSIS\bin\SAC.DBOperations.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SACSIS\bin\DAL.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SACSIS\bin\SAC.Helper.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SACSIS\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SACSIS\obj\Debug\SACSIS.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SACSIS\obj\Debug\SACSIS.pdb

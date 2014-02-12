@@ -1,0 +1,7 @@
+D:\新SIS平台\SACSIS\SACSIS\SAC.DBLink\bin\Debug\SAC.DBLink.pdb
+D:\新SIS平台\SACSIS\SACSIS\SAC.DBLink\obj\Debug\ResolveAssemblyReference.cache
+D:\新SIS平台\SACSIS\SACSIS\SAC.DBLink\obj\Debug\SAC.DBLink.dll
+D:\新SIS平台\SACSIS\SACSIS\SAC.DBLink\obj\Debug\SAC.DBLink.pdb
+D:\新SIS平台\SACSIS\SACSIS\SAC.DBLink\bin\Debug\SAC.DBLink.dll
+D:\新SIS平台\SACSIS\SACSIS\SAC.DBLink\bin\Debug\SAC.DBOperations.dll
+D:\新SIS平台\SACSIS\SACSIS\SAC.DBLink\bin\Debug\SAC.DBOperations.pdb
