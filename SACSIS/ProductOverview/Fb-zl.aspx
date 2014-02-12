@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Fb-zl.aspx.cs" Inherits="SACSIS.ProductOverview.fb_zl" %>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head id="Head1" runat="server">
     <title></title>
     <style type="text/css">
         body
@@ -17,9 +17,12 @@
             background-image: url(../img/group-zl-1.jpg);
             height: 107px;
             width: 189px;
-            display: block;
+            display: table;
+            text-align: center;
             background-repeat: no-repeat;
             background-position: center;
+            line-height: 107px;
+            position: relative;
         }
         .div_2
         {
@@ -27,8 +30,11 @@
             height: 107px;
             width: 189px;
             display: block;
+            text-align: center;
             background-repeat: no-repeat;
-            background-position: center;
+            background-position: center center;
+            line-height: 107px;
+            position: relative;
         }
         .div_3
         {
@@ -36,50 +42,11 @@
             height: 107px;
             width: 189px;
             display: block;
+            text-align: center;
             background-repeat: no-repeat;
-            background-position: center;
-        }
-        .div_4
-        {
-            background-image: url(../img/default_bg_1.jpg);
-            height: 107px;
-            width: 189px;
+            background-position: center center;
+            line-height: 107px;
             position: relative;
-            display: block;
-        }
-        .div_5
-        {
-            background-image: url(../img/group-zl-5.jpg);
-            height: 107px;
-            width: 189px;
-            position: relative;
-            display: block;
-        }
-        .div_6
-        {
-            background-image: url(../img/group-zl-6.jpg);
-            height: 107px;
-            width: 189px;
-            position: relative;
-            display: block;
-        }
-        .div_10
-        {
-            background-image: url(../img/group-zl-10.jpg);
-            height: 256px;
-            width: 414px;
-            display: block;
-            background-repeat: no-repeat;
-            background-position: center;
-        }
-        .div_11
-        {
-            background-image: url(../img/group-zl-11.jpg);
-            height: 256px;
-            width: 414px;
-            display: block;
-            background-repeat: no-repeat;
-            background-position: center;
         }
         .div_12
         {
@@ -89,6 +56,8 @@
             display: block;
             background-repeat: no-repeat;
             background-position: center;
+            line-height: 421px;
+            text-align: center;
         }
         .div_13
         {
@@ -98,15 +67,8 @@
             display: block;
             background-repeat: no-repeat;
             background-position: center;
-        }
-        .div_11
-        {
-            background-image: url(../img/group-zl-11.jpg);
-            height: 256px;
-            width: 414px;
-            display: block;
-            background-repeat: no-repeat;
-            background-position: center;
+            line-height: 421px;
+            text-align: center;
         }
         .div_top_1
         {
@@ -121,12 +83,39 @@
         }
         .text_1
         {
+            vertical-align: middle;
+            display: table-cell;
+            width: 400px;
             color: #000000;
             font-size: 14px;
             font: "宋体";
             width: 140px;
             height: 17px;
+            line-height: 17px;
             text-align: center;
+        }
+        .content
+        {
+            position: relative;
+            top: -50%;
+            color: #000000;
+            font-size: 14px;
+            font: "宋体";
+            width: 140px;
+            height: 17px;
+            line-height: 17px;
+            text-align: center;
+        }
+        .text_2
+        {
+            color: #000000;
+            background-color: #CCC;
+            font-size: 14px;
+            font: "宋体";
+            width: 400px;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
     <script src="../Js/jquery-1.8.2.min.js" type="text/javascript"></script>
@@ -135,14 +124,17 @@
     <script language="javascript" type="text/javascript">
         var vars = new Array(), hash;
         $(document).ready(function () {
-
-
             var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
             for (var i = 0; i < hashes.length; i++) {
                 hash = hashes[i].split('=');
                 vars.push(hash[0]);
                 vars[hash[0]] = hash[1];
             }
+            Reaload();
+            setInterval(Reaload, "30000");
+        });
+
+        function Reaload() {
             var fbzl_id = "";
             if (vars["id"] != null) {
                 fbzl_id += vars["id"] + ",";
@@ -172,7 +164,7 @@
         $("#lbl_Power").html(array[2]);
     },
     "html");
-            setInterval(Reaload, "30000");
+
             $.post("Fb-zl.aspx", { Groupzl_id: "发电比重", id: "container1", Range: vars["id"] }, function (data) {
 
                 DRAWPIE(data);
@@ -181,17 +173,15 @@
 
                 DRAWLINE(data);
             }, 'json');
-        });
-        function Reaload() {
-            $.post(
-        "../datafile/Get_Groupzl_Data.aspx",
-        {
-            Reaload_id: "t_orgid='" + vars["company_id"] + "'", num: 1
-        },
-    function (data) {
-        $("#lbl_Reaload").html(data);
-    },
-    "html");
+//            $.post(
+//        "../datafile/Get_Groupzl_Data.aspx",
+//        {
+//            Reaload_id: "t_orgid='" + vars["company_id"] + "'", num: 1
+//        },
+//    function (data) {
+//        $("#lbl_Reaload").html(data);
+//    },
+//    "html");
         }
 
 
@@ -285,7 +275,7 @@
             <tr>
                 <td align="center">
                     <div>
-                        <table height="100%" width="100%" border="1" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF">
+                        <table height="100%" width="100%" border="0" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF">
                             <tr>
                                 <td>
                                 </td>
@@ -321,22 +311,19 @@
             <tr>
                 <td align="center">
                     <div>
-                        <table height="100%" width="100%" border="0" cellpadding="0" cellspacing="0">
-                            <%--                            <tr>
-                                <td colspan="5" style="background-color: #FFFFFF; height: 50px;">
-                                </td>
-                            </tr>--%>
+                        <table height="100%" width="100%" border="0" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF"
+                            bgcolor="#FFFFFF">
                             <tr>
                                 <td style="background-color: #ffffff; height: 256px;">
                                 </td>
-                                <td class="div_12">
-                                     <div id="container1" style="width: 400px; height: 300px; margin: 0px auto auto 30px;">
+                                <td class="div_12" align="center" valign="middle">
+                                    <div id="container1" class="text_2">
                                     </div>
                                 </td>
                                 <td style="background-color: #ffffff; height: 256px; width: 90px">
                                 </td>
-                                <td class="div_13">
-                                    <div id="container2" style="width: 400px; height: 300px; margin: 0px auto auto 30px;">
+                                <td class="div_13" align="center" valign="middle">
+                                    <div id="container2" class="text_2">
                                     </div>
                                 </td>
                                 <td style="background-color: #ffffff; height: 256px;">

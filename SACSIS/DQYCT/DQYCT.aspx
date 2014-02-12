@@ -5,6 +5,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+     <script src="../Js/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <link href="../Js/jQueryEasyUI/themes/icon.css" rel="stylesheet" type="text/css" />
+    <link href="../Js/jQueryEasyUI/themes/gray/easyui.css" rel="stylesheet" type="text/css" />
+    <link href="../Js/jQueryEasyUI/css/djxt.css" rel="stylesheet" type="text/css" />
+    <script src="../Js/jQueryEasyUI/jquery.easyui.min.js" type="text/javascript"></script>
     <style type="text/css">
     html, body {
 	    height: 100%;
@@ -20,20 +25,8 @@
     }
     </style>
     <script src="../Js/Silverlight.js" type="text/javascript"></script>
-    <script type="text/javascript">
-//        $(function () {
-//            var vars = new Array(), hash, Groupzl_id;
-
-//            var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-//            for (var i = 0; i < hashes.length; i++) {
-//                hash = hashes[i].split('=');
-//                vars.push(hash[0]);
-//                vars[hash[0]] = hash[1];
-//            }
-//            $.post("DQYCT.aspx", { plant_id: vars["plantid"] }, function (data) {
-//               
-//            }, 'json');
-//        });
+    <script type="text/javascript" language="javascript">
+       
         function onSilverlightError(sender, args) {
             var appSource = "";
             if (sender != null && sender != 0) {
@@ -76,7 +69,7 @@
         <object data="data:application/x-silverlight-2," type="application/x-silverlight-2" width="100%" height="700px">
 		  <param name="source" value="../ClientBin/SAC.DQYCT.xap"/>
 		  <param name="onError" value="onSilverlightError" />
-          <param name="InitParams" value="InitPage=<%=aa %>" />
+          <param id="InitParams" name="InitParams" value="InitPage=<%=Page_Url %>" />
 		  <param name="background" value="white" />
 		  <param name="minRuntimeVersion" value="4.0.50826.0" />
 		  <param name="autoUpgrade" value="true" />

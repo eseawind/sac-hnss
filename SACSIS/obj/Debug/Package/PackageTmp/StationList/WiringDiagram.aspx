@@ -170,7 +170,7 @@
 <body>
     <form id="form1" runat="server">
     <div class="easyui-tabs" style="width: 1100px; height: auto">
-        <div title="A2-A4" style="padding: 10px">
+        <%--<div title="A2-A4" style="padding: 10px">
             <div style="padding: 0px; margin: -10px 0px 0px 0px; width: auto; height: 530px;background:url(../img/GZJSQ_A1.jpg)">
                 
                 <div id="divbg" style="left: 0px; top:0px; position: absolute;">
@@ -316,8 +316,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div title="A5-A8" style="padding: 10px">
+        </div>--%>
+        <%--<div title="A5-A8" style="padding: 10px">
             <div style="padding: 0px; margin: -8px 0px 0px 0px; width: auto; height: 520px;background:url(../img/GZJSQ2.jpg)">
                
                 <div id="div15" style="left: 0px; top: 0px; position: absolute;">
@@ -441,8 +441,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div title="C1-C2" style="padding: 10px">
+        </div>--%>
+        <%--<div title="C1-C2" style="padding: 10px">
             <div style="padding: 0px; margin: -8px; width: auto; height: 520px;background:url(../img/GZJSQ3.jpg)">
                 <div id="div45" style="left: 0px; top: 0px; position: absolute;">
                     <div id="Div48" style="left: 330px; top: 140px; position: absolute; width: 87px;
@@ -513,7 +513,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>--%>
         <div title="C3-C5" style="padding: 10px">
             <div style="padding: 0px; margin: -8px; width: auto; height: 520px;background:url(../img/GZJSQ4.jpg)"">
                 <div id="div62" style="left: 00px; top: 00px; position: absolute;">

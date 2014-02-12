@@ -29,3 +29,17 @@ C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SAC.DBOperations\bi
 C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SAC.DBOperations\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SAC.DBOperations\obj\Debug\SAC.DBOperations.dll
 C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SAC.DBOperations\obj\Debug\SAC.DBOperations.pdb
+C:\Documents and Settings\Administrator\桌面\HNSIS\SAC.DBOperations\bin\Debug\SAC.DBOperations.dll
+C:\Documents and Settings\Administrator\桌面\HNSIS\SAC.DBOperations\bin\Debug\SAC.DBOperations.pdb
+C:\Documents and Settings\Administrator\桌面\HNSIS\SAC.DBOperations\bin\Debug\SAC.Helper.dll
+C:\Documents and Settings\Administrator\桌面\HNSIS\SAC.DBOperations\bin\Debug\SAC.Helper.pdb
+C:\Documents and Settings\Administrator\桌面\HNSIS\SAC.DBOperations\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\HNSIS\SAC.DBOperations\obj\Debug\SAC.DBOperations.dll
+C:\Documents and Settings\Administrator\桌面\HNSIS\SAC.DBOperations\obj\Debug\SAC.DBOperations.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.DBOperations\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.DBOperations\bin\Debug\SAC.DBOperations.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.DBOperations\bin\Debug\SAC.DBOperations.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.DBOperations\bin\Debug\SAC.Helper.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.DBOperations\bin\Debug\SAC.Helper.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.DBOperations\obj\Debug\SAC.DBOperations.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.DBOperations\obj\Debug\SAC.DBOperations.pdb

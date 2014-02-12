@@ -65,8 +65,8 @@ namespace SACSIS.StationList
                 _stjt.Append("<tr style=\"background-color:#FAD09C;\"><td>集团总部</td>");
                 _stjt.Append("<td>"+df.GetCapacity(DateTime.Now)+"</td>");
                 _stjt.Append("<td>" + GerUnitNum("1=1") + "</td>");
-                _stjt.Append("<td>0</td>");
-                //_stjt.Append("<td>" + df.GetReaload("1=1",1) + "</td>");
+                //_stjt.Append("<td>0</td>");
+                _stjt.Append("<td>" + df.GetReaload("1=1",1) + "</td>");
                 _stjt.Append("<td> <div id=\"Div4\"> &nbsp;</div></td>");
                 _stjt.Append("<td>" + df.GetPower("3=3", DateTime.Now,1) + "</td>");
                 _stjt.Append("<td>" + df.GetPower("2=2", DateTime.Now,2) + "</td>");
@@ -81,8 +81,8 @@ namespace SACSIS.StationList
                         _stjt.Append("<tr style=\"background-color:#CAFFCE;\"><td>&nbsp;&nbsp;&nbsp;&nbsp;" + dt.Rows[i]["T_COMNAME"].ToString());
                         _stjt.Append("<td>" + df.GetCapacityByDepid("t_base_plant.t_comid ='" + dt.Rows[i]["T_COMID"].ToString() + "'", DateTime.Now) + "</td>");
                         _stjt.Append("<td>" + GerUnitNum("t_base_plant.t_comid ='" + dt.Rows[i]["T_COMID"].ToString() + "'") + "</td>");
-                        _stjt.Append("<td>0</td>");
-                        //_stjt.Append("<td>" + df.GetReaload("T_BASE_COMPANY.t_comid ='" + dt.Rows[i]["T_COMID"].ToString() + "'", 1) + "</td>");
+                        //_stjt.Append("<td>0</td>");
+                        _stjt.Append("<td>" + df.GetReaload("T_BASE_COMPANY.t_comid ='" + dt.Rows[i]["T_COMID"].ToString() + "'", 1) + "</td>");
                         _stjt.Append("<td> <div id=\"Div4\"> &nbsp;</div></td>");
                         _stjt.Append("<td>" + df.GetPower("t_base_plant.t_comid ='" + dt.Rows[i]["T_COMID"].ToString() + "'", DateTime.Now, 1) + "</td>");
                         _stjt.Append("<td>" + df.GetPower("t_base_plant.t_comid ='" + dt.Rows[i]["T_COMID"].ToString() + "'", DateTime.Now, 2) + "</td>");
@@ -97,10 +97,10 @@ namespace SACSIS.StationList
                                 _stjt.Append("<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + dtt.Rows[j]["t_plantname"].ToString());
                                 _stjt.Append("<td>" + df.GetCapacityByDepid("t_base_plant.t_plantid ='" + dtt.Rows[j]["t_plantid"].ToString() + "'", DateTime.Now) + "</td>");
                                 _stjt.Append("<td>" + GerUnitNum("t_base_plant.t_plantid ='" + dtt.Rows[j]["t_plantid"].ToString() + "'") + "</td>");
-                                _stjt.Append("<td>0</td>");
+                                //_stjt.Append("<td>0</td>");
                                 //if (dtt.Rows[j]["t_plantid"].ToString() != "T_QHHNZ")
                                 //{
-                                //    _stjt.Append("<td>" + df.GetReaload("t_base_plant.t_plantid ='" + dtt.Rows[j]["t_plantid"].ToString() + "'", 3) + "</td>");
+                                    _stjt.Append("<td>" + df.GetReaload("t_base_plant.t_plantid ='" + dtt.Rows[j]["t_plantid"].ToString() + "'", 3) + "</td>");
                                 //}
                                 //else
                                 //{
@@ -127,8 +127,8 @@ namespace SACSIS.StationList
                             _stjt.Append("<tr style=\"background-color:#CAFFCE;\"><td>&nbsp;&nbsp;&nbsp;&nbsp;" + dt_3.Rows[k]["t_depname"].ToString());
                             _stjt.Append("<td>" + df.GetCapacityByDepid("t_base_plant.t_depid ='" + dt_3.Rows[k]["t_depid"].ToString() + "'", DateTime.Now) + "</td>");
                             _stjt.Append("<td>" + GerUnitNum("t_base_plant.t_depid ='" + dt_3.Rows[k]["t_depid"].ToString() + "'") + "</td>");
-                            _stjt.Append("<td>0</td>");
-                            //_stjt.Append("<td>" + df.GetReaload("t_base_plant.t_depid ='" + dt_3.Rows[k]["t_depid"].ToString() + "'", 3) + "</td>");
+                            //_stjt.Append("<td>0</td>");
+                            _stjt.Append("<td>" + df.GetReaload("t_base_plant.t_depid ='" + dt_3.Rows[k]["t_depid"].ToString() + "'", 3) + "</td>");
                             _stjt.Append("<td> <div id=\"Div4\"> &nbsp;</div></td>");
                             _stjt.Append("<td>" + df.GetPower("t_base_plant.t_depid ='" + dt_3.Rows[k]["t_depid"].ToString() + "'", DateTime.Now, 1) + "</td>");
                             _stjt.Append("<td>" + df.GetPower("t_base_plant.t_depid ='" + dt_3.Rows[k]["t_depid"].ToString() + "'", DateTime.Now, 2) + "</td>");
@@ -144,8 +144,8 @@ namespace SACSIS.StationList
                                     _stjt.Append("<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + dtt_1.Rows[l]["t_plantname"].ToString());
                                     _stjt.Append("<td>" + df.GetCapacityByDepid("t_base_plant.t_plantid ='" + dtt_1.Rows[l]["t_plantid"].ToString() + "'", DateTime.Now) + "</td>");
                                     _stjt.Append("<td>" + GerUnitNum("t_base_plant.t_plantid ='" + dtt_1.Rows[l]["t_plantid"].ToString() + "'") + "</td>");
-                                    _stjt.Append("<td>0</td>");
-                                    //_stjt.Append("<td>" + df.GetReaload("t_base_plant.t_plantid ='" + dtt_1.Rows[l]["t_plantid"].ToString() + "'", 3) + "</td>");
+                                    //_stjt.Append("<td>0</td>");
+                                    _stjt.Append("<td>" + df.GetReaload("t_base_plant.t_plantid ='" + dtt_1.Rows[l]["t_plantid"].ToString() + "'", 3) + "</td>");
                                     _stjt.Append("<td> <div id=\"Div4\"> &nbsp;</div></td>");
                                     _stjt.Append("<td>" + df.GetPower("t_base_plant.t_plantid ='" + dtt_1.Rows[l]["t_plantid"].ToString() + "'", DateTime.Now, 1) + "</td>");
                                     _stjt.Append("<td>" + df.GetPower("t_base_plant.t_plantid ='" + dtt_1.Rows[l]["t_plantid"].ToString() + "'", DateTime.Now, 2) + "</td>");
@@ -170,8 +170,8 @@ namespace SACSIS.StationList
                 }
                 _stjt.Append("<td>" + df.GetCapacityByDepid("t_base_plant.t_comid ='" + para_id + "'", DateTime.Now) + "</td>");
                 _stjt.Append("<td>" + GerUnitNum("t_base_plant.t_comid ='" + para_id + "'") + "</td>");
-                _stjt.Append("<td>0</td>");
-                //_stjt.Append("<td>" + df.GetReaload("T_BASE_COMPANY.t_comid ='" + para_id + "'", 1) + "</td>");
+                //_stjt.Append("<td>0</td>");
+                _stjt.Append("<td>" + df.GetReaload("T_BASE_COMPANY.t_comid ='" + para_id + "'", 1) + "</td>");
                 _stjt.Append("<td> <div id=\"Div4\"> &nbsp;</div></td>");
                 _stjt.Append("<td>" + df.GetPower("t_base_plant.t_comid ='" + para_id + "'", DateTime.Now, 1) + "</td>");
                 _stjt.Append("<td>" + df.GetPower("t_base_plant.t_comid ='" + para_id + "'", DateTime.Now, 2) + "</td>");
@@ -187,10 +187,10 @@ namespace SACSIS.StationList
                         _stjt.Append("<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;" + dtt.Rows[j]["t_plantname"].ToString());
                         _stjt.Append("<td>" + df.GetCapacityByDepid("t_base_plant.t_plantid ='" + dtt.Rows[j]["t_plantid"].ToString() + "'", DateTime.Now) + "</td>");
                         _stjt.Append("<td>" + GerUnitNum("t_base_plant.t_plantid ='" + dtt.Rows[j]["t_plantid"].ToString() + "'") + "</td>");
-                        _stjt.Append("<td>0</td>");
+                        //_stjt.Append("<td>0</td>");
                         //if (dtt.Rows[j]["t_plantid"].ToString() != "T_QHHNZ")
                         //{
-                        //    _stjt.Append("<td>" + df.GetReaload("t_base_plant.t_plantid ='" + dtt.Rows[j]["t_plantid"].ToString() + "'", 3) + "</td>");
+                            _stjt.Append("<td>" + df.GetReaload("t_base_plant.t_plantid ='" + dtt.Rows[j]["t_plantid"].ToString() + "'", 3) + "</td>");
                         //}
                         //else
                         //{

@@ -15,25 +15,46 @@ using SLGetDataFromWCFRIA.Web;
 using System.Windows.Controls.Primitives;
 using SLVisualTreeHelper;
 using SAC.DQYCT.SLRoom;
+using System.Windows.Browser;
 
 namespace SAC.DQYCT
 {
     public partial class NXWZMainPage : UserControl
     {
+        System.Windows.Threading.DispatcherTimer _MessageControler;
         public NXWZMainPage()
         {
             InitializeComponent();
+
             SLWCFRIAClient client = ServerManager.GetPox();
             //bool registerResult = WebRequest.RegisterPrefix("http://", WebRequestCreator.ClientHttp);
             //bool httpsResult = WebRequest.RegisterPrefix("https://", WebRequestCreator.ClientHttp);
             //调用GetData方法并加载事件
-            client.GetDataWZAsync();
-            client.GetDataWZCompleted += new EventHandler<GetDataWZCompletedEventArgs>(client_GetDataCompleted);
+
+            client.GetDataAsync("2");
+            client.GetDataCompleted += new EventHandler<GetDataCompletedEventArgs>(client_GetDataCompleted);
+            Globals VTHelper = new Globals();
+            List<TextBox> textblock = VTHelper.GetChildObjects<TextBox>(this.LayoutRoot, "");
+            
+            _MessageControler = new System.Windows.Threading.DispatcherTimer();
+            _MessageControler.Interval = new TimeSpan(0, 0, 20);
+            _MessageControler.Tick += new EventHandler(timer_Tick); 
+            _MessageControler.Start();
+        }
+        private void timer_Tick(object sender, EventArgs e)
+        {
+
+            SLWCFRIAClient client = ServerManager.GetPox();
+            //bool registerResult = WebRequest.RegisterPrefix("http://", WebRequestCreator.ClientHttp);
+            //bool httpsResult = WebRequest.RegisterPrefix("https://", WebRequestCreator.ClientHttp);
+            //调用GetData方法并加载事件
+
+            client.GetDataAsync("2");
+            client.GetDataCompleted += new EventHandler<GetDataCompletedEventArgs>(client_GetDataCompleted);
             Globals VTHelper = new Globals();
             List<TextBox> textblock = VTHelper.GetChildObjects<TextBox>(this.LayoutRoot, "");
         }
-
-        void client_GetDataCompleted(object sender, GetDataWZCompletedEventArgs e)
+        void client_GetDataCompleted(object sender, GetDataCompletedEventArgs e)
         {
             using (XmlReader xReader = XmlReader.Create(new StringReader(e.Result)))
             {

@@ -1,0 +1,35 @@
+E:\Code\syl\NptWork\SAC.Model\bin\Debug\SAC.Model.dll
+E:\Code\syl\NptWork\SAC.Model\bin\Debug\SAC.Model.pdb
+E:\Code\syl\NptWork\SAC.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\Code\syl\NptWork\SAC.Model\obj\Debug\SAC.Model.dll
+E:\Code\syl\NptWork\SAC.Model\obj\Debug\SAC.Model.pdb
+C:\统计程序\NptWork\SAC.Model\bin\Debug\SAC.Model.dll
+C:\统计程序\NptWork\SAC.Model\bin\Debug\SAC.Model.pdb
+C:\统计程序\NptWork\SAC.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\统计程序\NptWork\SAC.Model\obj\Debug\SAC.Model.dll
+C:\统计程序\NptWork\SAC.Model\obj\Debug\SAC.Model.pdb
+C:\work\SACSIS\SACSIS\SACSIS\SAC.Model\bin\Debug\SAC.Model.dll
+C:\work\SACSIS\SACSIS\SACSIS\SAC.Model\bin\Debug\SAC.Model.pdb
+C:\work\SACSIS\SACSIS\SACSIS\SAC.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\work\SACSIS\SACSIS\SACSIS\SAC.Model\obj\Debug\SAC.Model.dll
+C:\work\SACSIS\SACSIS\SACSIS\SAC.Model\obj\Debug\SAC.Model.pdb
+C:\Users\Administrator\Desktop\SACSIS\SACSIS\SACSIS\SAC.Model\bin\Debug\SAC.Model.dll
+C:\Users\Administrator\Desktop\SACSIS\SACSIS\SACSIS\SAC.Model\bin\Debug\SAC.Model.pdb
+C:\Users\Administrator\Desktop\SACSIS\SACSIS\SACSIS\SAC.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\SACSIS\SACSIS\SACSIS\SAC.Model\obj\Debug\SAC.Model.dll
+C:\Users\Administrator\Desktop\SACSIS\SACSIS\SACSIS\SAC.Model\obj\Debug\SAC.Model.pdb
+D:\新SIS平台\SACSIS(带报表)\SACSIS\SACSIS\SACSIS\SAC.Model\bin\Debug\SAC.Model.dll
+D:\新SIS平台\SACSIS(带报表)\SACSIS\SACSIS\SACSIS\SAC.Model\bin\Debug\SAC.Model.pdb
+D:\新SIS平台\SACSIS(带报表)\SACSIS\SACSIS\SACSIS\SAC.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\新SIS平台\SACSIS(带报表)\SACSIS\SACSIS\SACSIS\SAC.Model\obj\Debug\SAC.Model.dll
+D:\新SIS平台\SACSIS(带报表)\SACSIS\SACSIS\SACSIS\SAC.Model\obj\Debug\SAC.Model.pdb
+D:\work\汉能集团\HNSIS\HNSIS\SAC.Model\bin\Debug\SAC.Model.dll
+D:\work\汉能集团\HNSIS\HNSIS\SAC.Model\bin\Debug\SAC.Model.pdb
+D:\work\汉能集团\HNSIS\HNSIS\SAC.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\work\汉能集团\HNSIS\HNSIS\SAC.Model\obj\Debug\SAC.Model.dll
+D:\work\汉能集团\HNSIS\HNSIS\SAC.Model\obj\Debug\SAC.Model.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.Model\bin\Debug\SAC.Model.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.Model\bin\Debug\SAC.Model.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.Model\obj\Debug\SAC.Model.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.Model\obj\Debug\SAC.Model.pdb

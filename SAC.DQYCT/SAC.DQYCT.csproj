@@ -71,6 +71,7 @@
     <Reference Include="system" />
     <Reference Include="System.Core" />
     <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Controls, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
     <Reference Include="System.Windows.Controls.Data.Input, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
     <Reference Include="System.Windows.Controls.Navigation" />
     <Reference Include="System.Xml" />
@@ -81,6 +82,9 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Globals.cs" />
+    <Compile Include="GZJSQDQT.xaml.cs">
+      <DependentUpon>GZJSQDQT.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -100,6 +104,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
+    <Page Include="GZJSQDQT.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -118,6 +126,14 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <Resource Include="15kwNBQ.jpg" />
+    <Resource Include="DDNB.jpg" />
+    <Resource Include="HLX.jpg" />
+    <Resource Include="Images\GZJSQ_A1.jpg" />
+    <Resource Include="Images\GZJSQ2.jpg" />
+    <Resource Include="Images\DDNB.jpg" />
+    <Resource Include="Images\HLX.jpg" />
+    <Resource Include="Images\50kwNBQ.jpg" />
     <Content Include="ServiceReferences.ClientConfig">
       <SubType>Designer</SubType>
     </Content>
@@ -136,6 +152,7 @@
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\SLRoom\" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -54,11 +54,11 @@ namespace DAL
             {
                 for( int i=2;i<dt.Columns.Count;i++)
                 {
-                    if (dt.Rows[0][i].ToString() == "T_QHHNZ_ZGL")
-                    {
-                        str += "0,";
-                    }
-                    else if (dt.Rows[0][i].ToString() != "")
+                    //if (dt.Rows[0][i].ToString() == "T_QHHNZ_ZGL")
+                    //{
+                    //    str += "0,";
+                    //}
+                     if (dt.Rows[0][i].ToString() != "")
                     {
                         str += GetRealValue(dt.Rows[0][i].ToString()) + ",";
                     }

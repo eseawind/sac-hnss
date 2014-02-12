@@ -93,8 +93,9 @@
         }
     </style>
     <script language="javascript" type="text/javascript">
+        var vars = new Array(), hash, Groupzl_id;
         $(function () {
-            var vars = new Array(), hash, Groupzl_id;
+            
 
             var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
             for (var i = 0; i < hashes.length; i++) {
@@ -102,6 +103,11 @@
                 vars.push(hash[0]);
                 vars[hash[0]] = hash[1];
             }
+            Reload();
+            //setInterval(Reload, "30000");
+        });
+        function Reload() {
+
             if (vars["plantid"] == "T_QHHNZ") {
                 $("#dianzhan_img").attr("src", "../img/QHHNZ_img_1.jpg");
             }
@@ -137,8 +143,7 @@
                     initChart("aa");
                 }
             }, 'json');
-        });
-
+        }
 
        
         var chart1;

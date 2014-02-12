@@ -12,9 +12,7 @@
     <script type="text/javascript">
         $(function () {
             load();
-            //            setInterval(function () {
-            //                load();
-            //            }, 1000 * 3);
+            setInterval(load, "30000");
         });
         var vars = new Array(), hash;
         function load() {

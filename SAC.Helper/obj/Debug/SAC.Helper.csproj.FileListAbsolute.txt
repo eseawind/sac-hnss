@@ -13,3 +13,13 @@ C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SAC.Helper\bin\Debu
 C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SAC.Helper\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SAC.Helper\obj\Debug\SAC.Helper.dll
 C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\SAC.Helper\obj\Debug\SAC.Helper.pdb
+C:\Documents and Settings\Administrator\桌面\HNSIS\SAC.Helper\bin\Debug\SAC.Helper.dll
+C:\Documents and Settings\Administrator\桌面\HNSIS\SAC.Helper\bin\Debug\SAC.Helper.pdb
+C:\Documents and Settings\Administrator\桌面\HNSIS\SAC.Helper\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\HNSIS\SAC.Helper\obj\Debug\SAC.Helper.dll
+C:\Documents and Settings\Administrator\桌面\HNSIS\SAC.Helper\obj\Debug\SAC.Helper.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.Helper\bin\Debug\SAC.Helper.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.Helper\bin\Debug\SAC.Helper.pdb
+C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.Helper\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.Helper\obj\Debug\SAC.Helper.dll
+C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.Helper\obj\Debug\SAC.Helper.pdb

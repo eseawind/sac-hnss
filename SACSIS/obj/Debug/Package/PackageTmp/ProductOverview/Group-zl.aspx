@@ -1,7 +1,7 @@
 <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Group-zl.aspx.cs" Inherits="SACSIS.ProductOverview.Group_zl" %>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head id="Head1" runat="server">
     <title></title>
     <style type="text/css">
         body
@@ -19,7 +19,8 @@
             width: 189px;
             display: block;
             background-repeat: no-repeat;
-            background-position: center;
+            background-position: center center;
+            line-height: 107px;
         }
         .div_2
         {
@@ -28,7 +29,8 @@
             width: 189px;
             display: block;
             background-repeat: no-repeat;
-            background-position: center;
+            background-position: center center;
+            line-height: 107px;
         }
         .div_3
         {
@@ -37,7 +39,8 @@
             width: 189px;
             display: block;
             background-repeat: no-repeat;
-            background-position: center;
+            background-position: center center;
+            line-height: 107px;
         }
         .div_4
         {
@@ -47,6 +50,7 @@
             display: block;
             background-repeat: no-repeat;
             background-position: center;
+            line-height: 107px;
         }
         .div_5
         {
@@ -56,6 +60,7 @@
             display: block;
             background-repeat: no-repeat;
             background-position: center;
+            line-height: 107px;
         }
         .div_6
         {
@@ -65,6 +70,7 @@
             display: block;
             background-repeat: no-repeat;
             background-position: center;
+            line-height: 107px;
         }
         .div_10
         {
@@ -74,6 +80,7 @@
             display: block;
             background-repeat: no-repeat;
             background-position: center;
+            line-height: 256px;
         }
         .div_11
         {
@@ -83,6 +90,7 @@
             display: block;
             background-repeat: no-repeat;
             background-position: center;
+            line-height: 256px;
         }
         .div_top_1
         {
@@ -90,8 +98,6 @@
             font-size: 14px;
             font: "宋体";
             position: absolute;
-            top: 50px;
-            left: 20px;
             width: 140px;
             height: 17px;
         }
@@ -103,31 +109,42 @@
             width: 140px;
             height: 17px;
             text-align: center;
+            line-height: 17px;
+        }
+        .text_2
+        {
+            color: #000000;
+            background-color: #CCC;
+            font-size: 14px;
+            font: "宋体";
+            width: 350px;
+            height: 190px;
+            text-align: center;
         }
     </style>
-    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
     <script src="../Js/jquery-1.8.2.min.js" type="text/javascript"></script>
     <script src="../Js/highcharts.js" type="text/javascript"></script>
     <script src="../Js/exporting.js" type="text/javascript"></script>
     <script language="javascript" type="text/javascript">
         $(document).ready(function () {
+            Reaload();
+            setInterval(Reaload, "30000");
+        });
+        function Reaload() {
             $.post(
         "../datafile/Get_Groupzl_Data.aspx",
         {
             id: "1=1"
         },
     function (data) {
-        $("#dv_show").show();
         var array = new Array();
         array = data.split(',');
         $("#lbl_Capacity").html(array[0]);
         $("#lbl_Reaload").html(array[1]);
         $("#lbl_Power").html(array[2]);
-        $("#dv_show").hide();
     },
     "html");
-            setInterval(Reaload, "30000");
+            
 
             $.post("Group-zl.aspx", { Groupzl_id: "事业部发电比重", id: "container1", Range: 1 }, function (data) {
 
@@ -145,18 +162,16 @@
 
                 DRAWLINE(data);
             }, 'json');
-        });
-        function Reaload() {
-            $.post(
-        "../datafile/Get_Groupzl_Data.aspx",
-        {
-            Reaload_id: "1=1", num: 1
-        },
-    function (data) {
-        //alert("11");
-        $("#lbl_Reaload").html(data);
-    },
-    "html");
+//            $.post(
+//        "../datafile/Get_Groupzl_Data.aspx",
+//        {
+//            Reaload_id: "1=1", num: 1
+//        },
+//    function (data) {
+//        //alert("11");
+//        $("#lbl_Reaload").html(data);
+//    },
+//    "html");
         }
         var chart1;
         function DRAWPIE(data) {
@@ -265,7 +280,7 @@
             <tr>
                 <td align="center">
                     <div>
-                        <table height="100%" width="100%" border="1" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF">
+                        <table height="100%" width="100%" border="0" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF">
                             <tr>
                                 <td>
                                 </td>
@@ -302,18 +317,18 @@
             <tr>
                 <td align="center">
                     <div>
-                        <table height="100%" width="100%" border="1" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF">
+                        <table height="100%" width="100%" border="0" cellpadding="0" cellspacing="0" bordercolor="#ffffff">
                             <tr>
                                 <td style="background-color: #ffffff; height: 256px;">
                                 </td>
-                                <td class="div_10">
-                                    <div id="container1" style="width: 350px; height: 190px; margin: 0px auto auto 30px;">
+                                <td class="div_10" align="center" valign="middle">
+                                    <div id="container1" class="text_2">
                                     </div>
                                 </td>
                                 <td style="background-color: #ffffff; height: 256px;">
                                 </td>
-                                <td class="div_11">
-                                    <div id="container2" style="width: 350px; height: 190px; margin: 0px auto auto 30px;">
+                                <td class="div_11" align="center" valign="middle">
+                                    <div id="container2" class="text_2">
                                     </div>
                                 </td>
                                 <td style="background-color: #ffffff; height: 256px;">
@@ -331,18 +346,18 @@
             <tr>
                 <td align="center">
                     <div>
-                        <table height="100%" width="100%" border="1" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF">
+                        <table height="100%" width="100%" border="0" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF">
                             <tr>
                                 <td style="background-color: #ffffff; height: 256px;">
                                 </td>
-                                <td class="div_10">
-                                    <div id="container3" style="width: 350px; height: 190px; margin: 0px auto auto 30px;">
+                                <td class="div_10" align="center" valign="middle">
+                                    <div id="container3" class="text_2">
                                     </div>
                                 </td>
                                 <td style="background-color: #ffffff; height: 256px;">
                                 </td>
-                                <td class="div_11">
-                                    <div id="container4" style="width: 350px; height: 190px; margin: 0px auto auto 30px;">
+                                <td class="div_11" align="center" valign="middle">
+                                    <div id="container4" class="text_2">
                                     </div>
                                 </td>
                                 <td style="background-color: #ffffff; height: 256px;">

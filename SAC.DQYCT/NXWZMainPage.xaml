@@ -25,11 +25,11 @@
         <sdk:Label Margin="52,291,0,0" Content="Ic(A)" Foreground="#FFED1C1C" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <sdk:Label Margin="52,319,0,0" Content="P(kW)" Foreground="#FF291BCE" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <sdk:Label Margin="52,344,0,0" VerticalAlignment="Top" Content="Q(kWar)" Foreground="#FF291BCE" HorizontalAlignment="Left"/>
-        <TextBlock Margin="100,244,0,0" TextWrapping="Wrap" x:Name="textBox6" Text="" Width="60"  HorizontalAlignment="Left" d:LayoutOverrides="Width" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top"/>
-        <TextBlock Margin="100,269,0,0" TextWrapping="Wrap" Text="" x:Name="textBox7" Width="60"  HorizontalAlignment="Left" d:LayoutOverrides="Width" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top"/>
-        <TextBlock Margin="100,295,0,0" TextWrapping="Wrap" Text="" x:Name="textBox8" Width="60" HorizontalAlignment="Left" d:LayoutOverrides="Width" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top"/>
-        <TextBlock Margin="100,321,0,0" TextWrapping="Wrap" Text="" x:Name="textBox9" Height="24"  Width="60" VerticalAlignment="Top"  HorizontalAlignment="Left" d:LayoutOverrides="Width" Foreground="#FF291BCE"/>
-        <TextBlock Margin="100,347,0,0" TextWrapping="Wrap" Text="" x:Name="textBox10" Height="24"  Width="60" VerticalAlignment="Top"  HorizontalAlignment="Left" d:LayoutOverrides="Width" Foreground="#FF291BCE"/>
+        <TextBlock Margin="123,244,0,0" TextWrapping="Wrap" x:Name="textBox6" Text="" Width="60"  HorizontalAlignment="Left" d:LayoutOverrides="Width" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top"/>
+        <TextBlock Margin="123,269,0,0" TextWrapping="Wrap" Text="" x:Name="textBox7" Width="60"  HorizontalAlignment="Left" d:LayoutOverrides="Width" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top"/>
+        <TextBlock Margin="123,295,0,0" TextWrapping="Wrap" Text="" x:Name="textBox8" Width="60" HorizontalAlignment="Left" d:LayoutOverrides="Width" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top"/>
+        <TextBlock Margin="123,321,0,0" TextWrapping="Wrap" Text="" x:Name="textBox9" Height="24"  Width="60" VerticalAlignment="Top"  HorizontalAlignment="Left" d:LayoutOverrides="Width" Foreground="#FF291BCE"/>
+        <TextBlock Margin="123,347,0,0" TextWrapping="Wrap" Text="" x:Name="textBox10" Height="24"  Width="60" VerticalAlignment="Top"  HorizontalAlignment="Left" d:LayoutOverrides="Width" Foreground="#FF291BCE"/>
         <TextBlock  Height="24" HorizontalAlignment="Right" Margin="0,46,185,0" x:Name="textBox1" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="73" />
         <TextBlock Height="24" HorizontalAlignment="Right" Margin="0,74,185,0" x:Name="textBox2" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="73" />
         <TextBlock Height="24" HorizontalAlignment="Right" Margin="0,103,185,0" x:Name="textBox3" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="73" />
@@ -47,12 +47,6 @@
         <sdk:Label Margin="0,153,434,0" Content="Ua(kV)" Foreground="#FFED1C1C" VerticalAlignment="Top" HorizontalAlignment="Right"/>
         <sdk:Label Margin="0,176,435,0" VerticalAlignment="Top" Content="Ub(kV)" Foreground="#FFED1C1C" HorizontalAlignment="Right"/>
         <sdk:Label Margin="0,201,435,0" Content="Uc(kV)" Foreground="#FFED1C1C" HorizontalAlignment="Right" VerticalAlignment="Top"/>
-        <TextBlock Margin="0,146,201,0" TextWrapping="Wrap" Text="" Height="24" VerticalAlignment="Top" HorizontalAlignment="Right" Width="60" Foreground="#FFED1C1C"/>
-        <TextBlock Margin="0,171,201,0" TextWrapping="Wrap" Text="" Height="24" VerticalAlignment="Top" HorizontalAlignment="Right" Width="60"  Foreground="#FFED1C1C"/>
-        <TextBlock Margin="0,197,201,0" TextWrapping="Wrap" Text="" HorizontalAlignment="Right" Width="60"  Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top"/>
-        <sdk:Label Margin="0,153,264,0" Content="Ua(kV)" Foreground="#FFED1C1C" VerticalAlignment="Top" HorizontalAlignment="Right"/>
-        <sdk:Label Margin="0,176,265,0" VerticalAlignment="Top" Content="Ub(kV)" Foreground="#FFED1C1C" HorizontalAlignment="Right"/>
-        <sdk:Label Margin="0,201,265,0" Content="Uc(kV)" Foreground="#FFED1C1C" HorizontalAlignment="Right" VerticalAlignment="Top"/>
         <Path Data="M384,397 L384,435.25" Fill="#FFFFF300" HorizontalAlignment="Left" Margin="197.475,185.747,0,0" Stretch="Fill" Stroke="#FFFBF204" StrokeThickness="3" UseLayoutRounding="False" Width="3" RenderTransformOrigin="0.5,0.5" Height="102.84" VerticalAlignment="Top">
             <Path.RenderTransform>
                 <CompositeTransform Rotation="180.035" TranslateX="1.243" TranslateY="47.522"/>
@@ -2215,41 +2209,41 @@
         <TextBlock FontSize="16" Height="24" HorizontalAlignment="Right" Margin="0,519,71,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="53" d:LayoutOverrides="HorizontalAlignment"><Run Text="补偿器"/><LineBreak/><Run/></TextBlock>
         <TextBlock Margin="506,197,590,0" TextWrapping="Wrap" FontSize="18.667" Foreground="#FFC3C407" FontWeight="Bold" Height="24" VerticalAlignment="Top"><Run Text="35KV"/><Run Text="母线"/></TextBlock>
 
-        <TextBlock Margin="538,244,0,0" TextWrapping="Wrap" Text="" x:Name="textBox21" Width="60" HorizontalAlignment="Left" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="538,269,0,0" TextWrapping="Wrap" Text="" x:Name="textBox22"  Width="60"  HorizontalAlignment="Left" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="538,295,0,0" TextWrapping="Wrap" Text="" x:Name="textBox23" Width="60"  HorizontalAlignment="Left" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="538,321,0,0" TextWrapping="Wrap" Text="" x:Name="textBox24" Height="24"  Width="60" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="538,347,0,0" TextWrapping="Wrap" Text="" x:Name="textBox25" Height="24"  Width="60" VerticalAlignment="Top"  HorizontalAlignment="Left" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="328,244,0,0" TextWrapping="Wrap" Text="" x:Name="textBox11" Width="60"  HorizontalAlignment="Left" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="328,269,0,0" TextWrapping="Wrap" Text=""  x:Name="textBox12" Width="60"  HorizontalAlignment="Left" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="328,295,0,0" TextWrapping="Wrap" Text=""  x:Name="textBox13" Width="60" HorizontalAlignment="Left" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="328,321,0,0" TextWrapping="Wrap" Text="" x:Name="textBox14" Height="24"  Width="60" VerticalAlignment="Top"  HorizontalAlignment="Left" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="328,347,0,0" TextWrapping="Wrap" Text="" x:Name="textBox15"  Height="24"  Width="60" VerticalAlignment="Top"  HorizontalAlignment="Left" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="432,244,0,0" TextWrapping="Wrap" Text="" x:Name="textBox16" Width="60"  HorizontalAlignment="Left" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="432,269,0,0" TextWrapping="Wrap" Text=""  x:Name="textBox17" Width="60" HorizontalAlignment="Left" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="432,295,0,0" TextWrapping="Wrap" Text="" x:Name="textBox18" Width="60"  HorizontalAlignment="Left" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="432,321,0,0" TextWrapping="Wrap" Text="" x:Name="textBox19" Height="24"  Width="60" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="432,347,0,0" TextWrapping="Wrap" Text="" x:Name="textBox20" Height="24"  Width="60" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="0,241,475,0" TextWrapping="Wrap" Text="" Width="60" x:Name="textBox26" HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="0,266,475,0" TextWrapping="Wrap" Text=""  Width="60" x:Name="textBox27"  HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="0,292,475,0" TextWrapping="Wrap" Text="" Width="60" x:Name="textBox28"  HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="0,318,475,0" TextWrapping="Wrap" Text="" Height="24" x:Name="textBox29" Width="60" VerticalAlignment="Top"  HorizontalAlignment="Right" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="0,344,475,0" TextWrapping="Wrap" Text="" Height="24" x:Name="textBox30"  Width="60" VerticalAlignment="Top"  HorizontalAlignment="Right" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="0,244,354,0" TextWrapping="Wrap" Text="" Width="60" x:Name="textBox31" HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="0,269,354,0" TextWrapping="Wrap" Text=""  Width="60" x:Name="textBox32" HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="0,295,354,0" TextWrapping="Wrap" Text="" Width="60" x:Name="textBox33" HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="0,321,354,0" TextWrapping="Wrap" Text="" Height="24" x:Name="textBox34" Width="60" VerticalAlignment="Top"  HorizontalAlignment="Right" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="0,347,354,0" TextWrapping="Wrap" Text="" Height="24" x:Name="textBox35"  Width="60" VerticalAlignment="Top"  HorizontalAlignment="Right" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="0,244,243,0" TextWrapping="Wrap" Text="" Width="60" x:Name="textBox36" HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="0,269,243,0" TextWrapping="Wrap" Text=""  Width="60" x:Name="textBox37"  HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="0,295,243,0" TextWrapping="Wrap" Text="" Width="60" x:Name="textBox38" HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="0,321,243,0" TextWrapping="Wrap" Text="" Height="24" x:Name="textBox39" Width="60" VerticalAlignment="Top"  HorizontalAlignment="Right" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="0,347,243,0" TextWrapping="Wrap" Text="" Height="24" x:Name="textBox40" Width="60" VerticalAlignment="Top"  HorizontalAlignment="Right" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="0,244,132,0" TextWrapping="Wrap" Text="" Width="60" x:Name="textBox41"  HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="0,269,132,0" TextWrapping="Wrap" Text=""  Width="60" x:Name="textBox42"  HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="0,295,132,0" TextWrapping="Wrap" Text="" Width="60" x:Name="textBox43"   HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="0,321,132,0" TextWrapping="Wrap" Text="" Height="24" x:Name="textBox44"  Width="60" VerticalAlignment="Top"  HorizontalAlignment="Right" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
-        <TextBlock Margin="0,347,132,0" TextWrapping="Wrap" Text="" Height="24" x:Name="textBox45"   Width="60" VerticalAlignment="Top"  HorizontalAlignment="Right" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="646,244,0,0" TextWrapping="Wrap" Text="" x:Name="textBox21" Width="60" HorizontalAlignment="Left" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="646,269,0,0" TextWrapping="Wrap" Text="" x:Name="textBox22"  Width="60"  HorizontalAlignment="Left" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="646,295,0,0" TextWrapping="Wrap" Text="" x:Name="textBox23" Width="60"  HorizontalAlignment="Left" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="646,321,0,0" TextWrapping="Wrap" Text="" x:Name="textBox24" Height="24"  Width="60" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="646,347,0,0" TextWrapping="Wrap" Text="" x:Name="textBox25" Height="24"  Width="60" VerticalAlignment="Top"  HorizontalAlignment="Left" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="425,244,0,0" TextWrapping="Wrap" Text="" x:Name="textBox11" Width="60"  HorizontalAlignment="Left" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="425,269,0,0" TextWrapping="Wrap" Text=""  x:Name="textBox12" Width="60"  HorizontalAlignment="Left" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="425,295,0,0" TextWrapping="Wrap" Text=""  x:Name="textBox13" Width="60" HorizontalAlignment="Left" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="425,321,0,0" TextWrapping="Wrap" Text="" x:Name="textBox14" Height="24"  Width="60" VerticalAlignment="Top"  HorizontalAlignment="Left" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="425,347,0,0" TextWrapping="Wrap" Text="" x:Name="textBox15"  Height="24"  Width="60" VerticalAlignment="Top"  HorizontalAlignment="Left" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="529,244,0,0" TextWrapping="Wrap" Text="" x:Name="textBox16" Width="60"  HorizontalAlignment="Left" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="529,269,0,0" TextWrapping="Wrap" Text=""  x:Name="textBox17" Width="60" HorizontalAlignment="Left" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="529,295,0,0" TextWrapping="Wrap" Text="" x:Name="textBox18" Width="60"  HorizontalAlignment="Left" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="529,321,0,0" TextWrapping="Wrap" Text="" x:Name="textBox19" Height="24"  Width="60" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="529,347,0,0" TextWrapping="Wrap" Text="" x:Name="textBox20" Height="24"  Width="60" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="0,244,371,0" TextWrapping="Wrap" Text="" Width="60" x:Name="textBox26" HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="0,269,371,0" TextWrapping="Wrap" Text=""  Width="60" x:Name="textBox27"  HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="0,295,371,0" TextWrapping="Wrap" Text="" Width="60" x:Name="textBox28"  HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="0,321,371,0" TextWrapping="Wrap" Text="" Height="24" x:Name="textBox29" Width="60" VerticalAlignment="Top"  HorizontalAlignment="Right" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="0,347,371,0" TextWrapping="Wrap" Text="" Height="24" x:Name="textBox30"  Width="60" VerticalAlignment="Top"  HorizontalAlignment="Right" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="0,244,250,0" TextWrapping="Wrap" Text="" Width="60" x:Name="textBox31" HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="0,269,250,0" TextWrapping="Wrap" Text=""  Width="60" x:Name="textBox32" HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="0,295,250,0" TextWrapping="Wrap" Text="" Width="60" x:Name="textBox33" HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="0,321,250,0" TextWrapping="Wrap" Text="" Height="24" x:Name="textBox34" Width="60" VerticalAlignment="Top"  HorizontalAlignment="Right" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="0,347,250,0" TextWrapping="Wrap" Text="" Height="24" x:Name="textBox35"  Width="60" VerticalAlignment="Top"  HorizontalAlignment="Right" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="0,244,150,0" TextWrapping="Wrap" Text="" Width="60" x:Name="textBox36" HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="0,269,150,0" TextWrapping="Wrap" Text=""  Width="60" x:Name="textBox37"  HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="0,295,150,0" TextWrapping="Wrap" Text="" Width="60" x:Name="textBox38" HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="0,321,150,0" TextWrapping="Wrap" Text="" Height="24" x:Name="textBox39" Width="60" VerticalAlignment="Top"  HorizontalAlignment="Right" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="0,347,150,0" TextWrapping="Wrap" Text="" Height="24" x:Name="textBox40" Width="60" VerticalAlignment="Top"  HorizontalAlignment="Right" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="0,244,29,0" TextWrapping="Wrap" Text="" Width="60" x:Name="textBox41"  HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="0,269,29,0" TextWrapping="Wrap" Text=""  Width="60" x:Name="textBox42"  HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="0,295,29,0" TextWrapping="Wrap" Text="" Width="60" x:Name="textBox43"   HorizontalAlignment="Right" Foreground="#FFED1C1C" Height="24" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="0,321,29,0" TextWrapping="Wrap" Text="" Height="24" x:Name="textBox44"  Width="60" VerticalAlignment="Top"  HorizontalAlignment="Right" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
+        <TextBlock Margin="0,347,29,0" TextWrapping="Wrap" Text="" Height="24" x:Name="textBox45"   Width="60" VerticalAlignment="Top"  HorizontalAlignment="Right" Foreground="#FF291BCE" d:LayoutOverrides="Width"/>
         
     </Grid>
 </UserControl>

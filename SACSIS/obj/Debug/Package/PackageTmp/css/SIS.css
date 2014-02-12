@@ -1,0 +1,150 @@
+﻿table.main{width:780;
+
+}
+
+body         { background-color: #ffffff; font-size: 9pt; text-align: center }
+.3d {
+	BORDER-BOTTOM: #666666 1px dashed; BORDER-LEFT: #ffffff 1px dashed; BORDER-RIGHT: #666666 1px dashed; BORDER-TOP: #ffffff 1px dashed
+}
+A:link {
+	TEXT-DECORATION: none
+}
+A.title {
+	COLOR: #ffffff; FONT-SIZE: 9pt; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A.title:visited {
+	COLOR: #ffffff; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+A.title:hover {
+	COLOR: #ff8000; FONT-SIZE: 9pt; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+A {
+	COLOR: black; FONT-SIZE: 9pt; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: black; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff8000; FONT-SIZE: 9pt; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+.nav {
+	COLOR: #FFFFFF; TEXT-DECORATION: none
+}
+.navhover {
+	CURSOR: default; TEXT-DECORATION: none
+}
+.menu {
+	TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.menuhover {
+	BACKGROUND-COLOR: navy; COLOR: white; CURSOR: default; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+TD {
+	FONT-SIZE: 9pt
+}
+.imgnoborder {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-RIGHT: 0px; BORDER-TOP: 0px
+}
+.imgborder {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid
+}
+.ctinput {
+	BACKGROUND-COLOR: #666666; COLOR: #FFCC33; BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt solid; BORDER-RIGHT: black 1pt solid; BORDER-TOP: black 1pt solid; FONT-SIZE: 9pt
+}
+.nva {
+	COLOR: #000000; FONT-SIZE: 9pt; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.nvahover {
+	COLOR: black; FONT-SIZE: 9pt; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+.nvavisted {
+	COLOR: #000000; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+.bntd1 {
+	BACKGROUND-COLOR: #666666; FONT-SIZE: 9pt
+}
+.bntd2 {
+	BACKGROUND-COLOR: #cccccc; FONT-SIZE: 9pt
+}
+.cntd2 {
+	BACKGROUND-COLOR: #90C8FF; FONT-SIZE: 9pt
+}
+.cntd1 {
+	BACKGROUND-COLOR: #4685B3; COLOR: #FFFFFF; FONT-SIZE: 9pt
+}
+.cntd3 {
+	BACKGROUND-COLOR: #90C8FF; FONT-SIZE: 9pt
+}
+.cnd {
+	COLOR: #666666; FONT-SIZE: 9pt
+}
+.nvinput {
+	BACKGROUND-COLOR: #CCCCCC;
+	COLOR: #000000;
+	FONT-SIZE: 9pt;
+	border: 1pt solid #333333;
+
+}
+.nvinput0 {
+	BACKGROUND-COLOR: #FDFED3;
+	BORDER-BOTTOM: black 1pt solid;
+	BORDER-LEFT: black 1pt solid;
+	BORDER-RIGHT: black 1pt solid;
+	BORDER-TOP: black 1pt solid;
+	FONT-SIZE: 9pt;
+
+
+}
+.cntd4 {
+	BACKGROUND-COLOR: #4685B3; COLOR: #FFFFFF; FONT-SIZE: 9pt
+}
+.cntd5 {
+	BACKGROUND-COLOR: #E0E8FF; FONT-SIZE: 9pt
+}
+.cntd6 {
+	BACKGROUND-COLOR: #90C8FF; FONT-SIZE: 9pt
+.nvtd {
+	BACKGROUND-COLOR: #e5e5e3; FONT-SIZE: 9pt
+}
+.nvcenter {COLOR: #FFFFFF;text-align:center
+	
+}
+.ctcenter {
+	FONT-SIZE: 9pt; TEXT-ALIGN: center
+}
+.ctoutertb {
+	BACKGROUND-COLOR: #000000
+}
+.tdwhite {
+	BACKGROUND-COLOR: #ffffff; FONT-SIZE: 9pt
+}
+.divtd {
+	BACKGROUND-COLOR: #E0E8FF; COLOR: #000000; FONT-SIZE: 9pt; TEXT-ALIGN: center
+}
+.vip {
+	COLOR: red
+}
+.cal {
+	BACKGROUND-COLOR: #e5e5e5; COLOR: black
+}
+
+.blueon
+{
+    BACKGROUND: #000099;
+    COLOR: #ffffff;
+    CURSOR: hand;
+    FONT-SIZE: 9pt;
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+    FONT-WEIGHT: normal;
+    LINE-HEIGHT: normal
+}
+.blueoff
+{
+    COLOR: #000000;
+    FONT-SIZE: 9pt;
+    FONT-STYLE: normal;
+    FONT-VARIANT: normal;
+    FONT-WEIGHT: normal;
+    LINE-HEIGHT: normal
+}

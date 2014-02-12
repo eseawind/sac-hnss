@@ -6,9 +6,11 @@
     <AssemblyPart x:Name="System.ServiceModel.DomainServices.Client.Web" Source="System.ServiceModel.DomainServices.Client.Web.dll" />
     <AssemblyPart x:Name="System.ServiceModel.Web.Extensions" Source="System.ServiceModel.Web.Extensions.dll" />
     <AssemblyPart x:Name="System.Windows.Controls.Data.Input" Source="System.Windows.Controls.Data.Input.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls" Source="System.Windows.Controls.dll" />
     <AssemblyPart x:Name="System.Windows.Controls.Navigation" Source="System.Windows.Controls.Navigation.dll" />
     <AssemblyPart Source="zh-Hans/System.ComponentModel.DataAnnotations.resources.dll" />
     <AssemblyPart Source="zh-Hans/System.ServiceModel.Web.Extensions.resources.dll" />
+    <AssemblyPart Source="zh-Hans/System.Windows.Controls.resources.dll" />
     <AssemblyPart Source="zh-Hans/System.Windows.Controls.Data.Input.resources.dll" />
     <AssemblyPart Source="zh-Hans/System.Windows.Controls.Navigation.resources.dll" />
   </Deployment.Parts>

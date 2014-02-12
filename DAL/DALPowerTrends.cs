@@ -60,8 +60,11 @@ namespace DAL
                     ht = new Hashtable();
                     lt = new ArrayList();
                     DateTime _sTime = new DateTime(1970, 1, 1);
-                    string sql1 = "select avg(D_VALUE),to_char(T_TIME,'yyyy-MM-dd HH24') s2 from t_info_statiscs where  t_orgid='" + dt.Rows[i]["T_POWERTAG"].ToString() + "'  and T_TIME between to_date('" + rating_time.Split(',')[0] + "','yyyy-MM-dd HH24:MI:SS') and  to_date('" + rating_time.Split(',')[1] + "','yyyy-MM-dd HH24:MI:SS')  group by   to_char(T_TIME,'yyyy-MM-dd HH24')   order by s2 asc";
+                    string sql1 = "select  D_VALUE,T_TIME from T_INFO_STATISCS where  t_orgid=(select t_orgid from t_base_statiscspara t where t_sourcetag ='" + dt.Rows[i]["T_POWERTAG"].ToString() + "' )  and T_TIME between to_date('" + rating_time.Split(',')[0] + "','yyyy-MM-dd HH24:MI:SS') and  to_date('" + rating_time.Split(',')[1] + "','yyyy-MM-dd HH24:MI:SS')   order by T_TIME asc";
+                    DateTime dt1 = DateTime.Now;
                     DTT = dl.RunDataTable(sql1, out errMsg);
+                    DateTime dtt1 = DateTime.Now;
+                    double num = (dtt1 - dt1).TotalSeconds;
                     if (DTT.Rows.Count > 400)
                     {
                         for (int j = 0; j < DTT.Rows.Count; j = j + (DTT.Rows.Count / 400))
