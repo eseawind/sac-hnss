@@ -1,5 +1,5 @@
-﻿<xapCache source="C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.DQYCT\Bin\Debug\SAC.DQYCT.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2014-3-7 13:48:12">
-  <file source="C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.DQYCT\obj\Debug\SAC.DQYCT.dll" archivePath="SAC.DQYCT.dll" lastWriteTime="2014-3-7 13:48:10" />
+﻿<xapCache source="C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.DQYCT\Bin\Debug\SAC.DQYCT.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="2014-3-27 15:11:01">
+  <file source="C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.DQYCT\obj\Debug\SAC.DQYCT.dll" archivePath="SAC.DQYCT.dll" lastWriteTime="2014-3-27 15:11:00" />
   <file source="C:\Program Files\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\System.ComponentModel.DataAnnotations.dll" archivePath="System.ComponentModel.DataAnnotations.dll" lastWriteTime="2011-3-10 0:08:16" />
   <file source="C:\Program Files\Microsoft SDKs\RIA Services\v1.0\Libraries\Silverlight\System.ServiceModel.DomainServices.Client.dll" archivePath="System.ServiceModel.DomainServices.Client.dll" lastWriteTime="2010-5-6 14:24:00" />
   <file source="C:\Program Files\Microsoft SDKs\RIA Services\v1.0\Libraries\Silverlight\System.ServiceModel.DomainServices.Client.Web.dll" archivePath="System.ServiceModel.DomainServices.Client.Web.dll" lastWriteTime="2010-5-6 14:23:58" />
@@ -13,5 +13,5 @@
   <file source="C:\Program Files\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\zh-Hans\System.Windows.Controls.Data.Input.resources.dll" archivePath="zh-Hans\System.Windows.Controls.Data.Input.resources.dll" lastWriteTime="2011-3-10 6:37:56" />
   <file source="C:\Program Files\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\zh-Hans\System.Windows.Controls.Navigation.resources.dll" archivePath="zh-Hans\System.Windows.Controls.Navigation.resources.dll" lastWriteTime="2011-3-10 6:37:56" />
   <file source="C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.DQYCT\ServiceReferences.ClientConfig" archivePath="ServiceReferences.ClientConfig" lastWriteTime="2014-1-15 12:17:23" />
-  <file source="C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.DQYCT\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2014-3-6 16:39:21" />
+  <file source="C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.DQYCT\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2014-3-26 16:12:35" />
 </xapCache>

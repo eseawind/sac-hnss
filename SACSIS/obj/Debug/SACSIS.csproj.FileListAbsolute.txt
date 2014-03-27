@@ -68,7 +68,25 @@ C:\Documents and Settings\Administrator\桌面\HNSIS\SACSIS\bin\SAC.Helper.pdb
 C:\Documents and Settings\Administrator\桌面\HNSIS\SACSIS\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Administrator\桌面\HNSIS\SACSIS\obj\Debug\SACSIS.dll
 C:\Documents and Settings\Administrator\桌面\HNSIS\SACSIS\obj\Debug\SACSIS.pdb
+E:\WORK\sac-hnss\SACSIS\bin\SACSIS.dll
+E:\WORK\sac-hnss\SACSIS\bin\SACSIS.pdb
+E:\WORK\sac-hnss\SACSIS\bin\BLL.dll
+E:\WORK\sac-hnss\SACSIS\bin\SAC.DBOperations.dll
+E:\WORK\sac-hnss\SACSIS\bin\SAC.Model.dll
+E:\WORK\sac-hnss\SACSIS\bin\DAL.dll
+E:\WORK\sac-hnss\SACSIS\bin\SAC.Helper.dll
+E:\WORK\sac-hnss\SACSIS\bin\BLL.pdb
+E:\WORK\sac-hnss\SACSIS\bin\SAC.Model.pdb
+E:\WORK\sac-hnss\SACSIS\bin\SAC.DBOperations.pdb
+E:\WORK\sac-hnss\SACSIS\bin\DAL.pdb
+E:\WORK\sac-hnss\SACSIS\bin\SAC.Helper.pdb
+E:\WORK\sac-hnss\SACSIS\obj\Debug\ResolveAssemblyReference.cache
+E:\WORK\sac-hnss\SACSIS\obj\Debug\Interop.LCC11.dll
+E:\WORK\sac-hnss\SACSIS\obj\Debug\SACSIS.csproj.ResolveComReference.cache
+E:\WORK\sac-hnss\SACSIS\obj\Debug\SACSIS.dll
+E:\WORK\sac-hnss\SACSIS\obj\Debug\SACSIS.pdb
 C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\obj\Debug\Interop.LCC11.dll
 C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\obj\Debug\SACSIS.csproj.ResolveComReference.cache
 C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\bin\SACSIS.dll
 C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\bin\SACSIS.pdb
@@ -85,4 +103,3 @@ C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\bin\DAL.pdb
 C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\bin\SAC.Helper.pdb
 C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\obj\Debug\SACSIS.dll
 C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\obj\Debug\SACSIS.pdb
-C:\Documents and Settings\Administrator\桌面\SACSIS\SACSIS\obj\Debug\Interop.LCC11.dll

@@ -108,10 +108,10 @@ namespace DAL
         public double GetRealValue(string id)
         {
             double d_value = 0;//T_INFO_REALTIMEVALUE原本是实时表
-
-            string sql = "select * from (select * from t_info_histvalue where T_TAG='" + id + "' and " +
-"t_time<=to_date('" + DateTime.Now + "','yyyy-MM-dd HH24:MI:SS') order by t_time desc) where ROWNUM =1 order by ROWNUM asc";
-            DataTable dt = dl.RunDataTable(sql, out errMsg);
+            DAL.DALDefault dal_df = new DALDefault();
+//            string sql = "select * from (select * from t_info_histvalue where T_TAG='" + id + "' and " +
+//"t_time<=to_date('" + DateTime.Now + "','yyyy-MM-dd HH24:MI:SS') order by t_time desc) where ROWNUM =1 order by ROWNUM asc";
+            DataTable dt = dal_df.GetDT(id, DateTime.Now);
             if (dt.Rows.Count > 0)
             {
                 d_value =Convert.ToDouble( dt.Rows[0]["D_VALUE"].ToString());
@@ -140,11 +140,14 @@ namespace DAL
             DataTable dt = dl.RunDataTable(sql,out errMsg);
             if (dt.Rows.Count > 0)
             {
+                DAL.DALDefault dal_df = new DALDefault();
+                
+                DataTable dtt = dal_df.GetDT(id, DateTime.Now);
                 //T_INFO_REALTIMEVALUE原本是实时表
-                string sql1 = "select * from (select * from t_info_histvalue where T_TAG='" + dt.Rows[0]["T_POWERTAG"].ToString() + "' and " +
-"t_time<=to_date('" + DateTime.Now + "','yyyy-MM-dd HH24:MI:SS') order by t_time desc) where ROWNUM =1 order by ROWNUM asc";
+//                string sql1 = "select * from (select * from t_info_histvalue where T_TAG='" + dt.Rows[0]["T_POWERTAG"].ToString() + "' and " +
+//"t_time<=to_date('" + DateTime.Now + "','yyyy-MM-dd HH24:MI:SS') order by t_time desc) where ROWNUM =1 order by ROWNUM asc";
                  
-                DataTable dtt =  dl.RunDataTable(sql1,out errMsg);
+//                DataTable dtt =  dl.RunDataTable(sql1,out errMsg);
                 if (dtt.Rows[0][0].ToString() != "")
                 {
                     d_value = Convert.ToDouble(dtt.Rows[0][0].ToString());

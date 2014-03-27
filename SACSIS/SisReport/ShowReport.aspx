@@ -20,11 +20,12 @@
     <link href="../Js/jQueryEasyUI/themes/icon.css" rel="stylesheet" type="text/css" />
     <link href="../Js/jQueryEasyUI/themes/gray/easyui.css" rel="stylesheet" type="text/css" />
     <link href="../Js/My97DatePicker/skin/WdatePicker.css" rel="stylesheet" type="text/css" />
+     <script src="../Js/Excel.js" type="text/javascript" language="javascript"  ></script>   
     <script src="../Js/My97DatePicker/WdatePicker.js" type="text/javascript"></script>
     <script src="../Js/jquery-1.8.2.min.js" type="text/javascript"></script>
     <script src="../Js/jQueryEasyUI/jquery.easyui.min.js" type="text/javascript"></script>
     <script src="../Js/jQueryZtree/jquery.ztree.core-3.5.js" type="text/javascript"></script>
-    <script src="../Js/Excel.js" type="text/javascript" language="javascript"  ></script>   
+    <script src="../Js/Excel.js" type="text/javascript"></script>
     <script src="../Js/PageLibrary.js" type="text/javascript" ></script>
 
     <script type="text/javascript" language="javascript">
@@ -162,7 +163,7 @@
             <img id="loadImg" src="../img/loading.gif" />
         </div>
         
-        <table border="0" width="100%";id='CX' style="overflow-x: auto; overflow-y: auto">
+        <table border="0" width="100%" id="CX" style="overflow-x: auto; overflow-y: auto">
             <tr style="width:100%;">
                 <td >
                      <div id="dvShow" runat="server"></div>                   

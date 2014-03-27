@@ -8,9 +8,7 @@
   <parment id="4" name="故障统计" pId="0" order="3" visible="1" owner="," FileName="" />
   <parment id="5" name="运营总览" pId="1" order="1" visible="1" owner=",1,admin," FileName="" />
   <parment id="6" name="报表统计" pId="0" order="4" visible="1" owner=",admin," FileName="" />
-  <parment id="7" name="太阳能指标日报表" pId="6" order="1" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1393383573135" />
-  <parment id="8" name="太阳能指标月报表" pId="6" order="2" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1393901023843" />
-  <parment id="9" name="太阳能指标年报表" pId="6" order="3" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1393931078468" />
+  <parment id="171" name="太阳能指标" pId="6" order="1" visible="1" owner=",admin," FileName="" />
   <parment id="10" name="数据分析" pId="0" order="5" visible="1" owner=",1,admin," FileName="" />
   <parment id="11" name="自定义趋势" pId="10" order="1" visible="1" owner="," FileName="" />
   <parment id="148" name="事业部" pId="10" order="2" visible="1" owner=",1,admin," FileName="" />
@@ -24,9 +22,8 @@
   <parment id="16" name="故障统计" pId="5" order="3" visible="1" owner="," FileName="" />
   <parment id="17" name="报表统计" pId="5" order="4" visible="1" owner=",admin," FileName="" />
   <parment id="21" name="数据对比" pId="5" order="5" visible="1" owner=",1,admin," FileName="" />
-  <parment id="18" name="太阳能指标日报表" pId="17" order="1" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1393835782593" />
-  <parment id="19" name="太阳能指标月报表" pId="17" order="2" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1393915278984" />
-  <parment id="20" name="太阳能指标年报表" pId="17" order="3" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1393931735625" />
+  <parment id="177" name="太阳能指标" pId="17" order="1" visible="1" owner=",admin," FileName="" />
+  <parment id="178" name="电量指标" pId="17" order="2" visible="1" owner=",admin," FileName="" />
   <parment id="22" name="功率对比" pId="21" order="1" visible="1" owner=",1,admin," FileName="../Tend/PowerTrends.aspx?top_id=3" />
   <parment id="155" name="日发电量对比" pId="21" order="2" visible="1" owner=",1,admin," FileName="../Tend/DailyConsumption.aspx?top_id=C_DIMIAN&amp;id=1" />
   <parment id="160" name="月发电量对比" pId="21" order="2" visible="1" owner=",1,admin," FileName="../Tend/DailyConsumption.aspx?top_id=C_DIMIAN&amp;id=2" />
@@ -46,9 +43,8 @@
   <parment id="38" name="场站一览" pId="36" order="2" visible="1" owner=",1,admin," FileName="../StationList/Czxxylb.aspx?company_id=C_BAPV" />
   <parment id="39" name="故障统计" pId="36" order="3" visible="1" owner=",1," FileName="" />
   <parment id="40" name="报表统计" pId="36" order="4" visible="1" owner=",1,admin," FileName="" />
-  <parment id="41" name="太阳能指标日报表" pId="40" order="1" visible="1" owner=",1,admin," FileName="../SisReport/ShowReport.aspx?id=1393836802156" />
-  <parment id="42" name="太阳能指标月报表" pId="40" order="2" visible="1" owner=",1,admin," FileName="../SisReport/ShowReport.aspx?id=1393916612234" />
-  <parment id="43" name="太阳能指标年报表" pId="40" order="3" visible="1" owner=",1,admin," FileName="../SisReport/ShowReport.aspx?id=1393931730421" />
+  <parment id="183" name="太阳能指标" pId="40" order="1" visible="1" owner=",admin," FileName="" />
+  <parment id="184" name="电量指标" pId="40" order="2" visible="1" owner=",admin," FileName="" />
   <parment id="44" name="数据分析" pId="36" order="5" visible="1" owner=",1,admin," FileName="数据对比" />
   <parment id="45" name="自定义趋势" pId="44" order="1" visible="1" owner=",1," FileName="" />
   <parment id="46" name="功率对比" pId="44" order="2" visible="1" owner=",1,admin," FileName="../Tend/PowerTrends.aspx?top_id=4" />
@@ -103,9 +99,7 @@
   <parment id="106" name="海南海口基地电站" pId="91" order="3" visible="1" owner=",1,admin," FileName="" />
   <parment id="108" name="山东禹城基地电站" pId="91" order="3" visible="1" owner=",1,admin," FileName="" />
   <parment id="96" name="报表统计" pId="92" order="4" visible="1" owner=",1,admin," FileName="" />
-  <parment id="97" name="太阳能指标日报表" pId="96" order="1" visible="1" owner=",1,admin," FileName="../SisReport/ShowReport.aspx?id=1393837030046" />
-  <parment id="98" name="太阳能指标月报表" pId="96" order="2" visible="1" owner=",1,admin," FileName="../SisReport/ShowReport.aspx?id=1393923309765" />
-  <parment id="99" name="太阳能指标年报表" pId="96" order="3" visible="1" owner=",1,admin," FileName="../SisReport/ShowReport.aspx?id=1393931720578" />
+  <parment id="189" name="太阳能指标报表" pId="96" order="1" visible="1" owner=",admin," FileName="" />
   <parment id="100" name="数据分析" pId="92" order="5" visible="1" owner=",1," FileName="" />
   <parment id="101" name="自定义趋势" pId="100" order="1" visible="1" owner=",1," FileName="" />
   <parment id="102" name="功率对比" pId="100" order="2" visible="1" owner=",1," FileName="../Tend/PowerTrends.aspx?top_id=4" />
@@ -159,4 +153,38 @@
   <parment id="168" name="电气一次图" pId="25" order="2" visible="1" owner=",admin," FileName="../DQYCT/DQYCT.aspx?id=NXWZMainPage" />
   <parment id="169" name="月发电量对比" pId="100" order="4" visible="1" owner="," FileName="../Tend/DailyConsumption.aspx?top_id=D_CN&amp;id=2" />
   <parment id="170" name="年发电量对比" pId="100" order="5" visible="1" owner="," FileName="../Tend/DailyConsumption.aspx?top_id=D_CN&amp;id=3" />
+  <parment id="172" name="太阳能指标日报表" pId="171" order="1" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1393383573135" />
+  <parment id="173" name="太阳能指标月报表" pId="171" order="2" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1393901023843" />
+  <parment id="174" name="太阳能指标年报表" pId="171" order="3" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1393931078468" />
+  <parment id="175" name="电量指标" pId="6" order="2" visible="1" owner=",admin," FileName="" />
+  <parment id="176" name="电量指标日报表" pId="175" order="1" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1394441960500" />
+  <parment id="179" name="太阳能指标日报表" pId="177" order="1" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1393835782593" />
+  <parment id="180" name="太阳能指标月报表" pId="177" order="2" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1393915278984" />
+  <parment id="181" name="太阳能指标年报表" pId="177" order="3" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1393931735625" />
+  <parment id="182" name="电量指标日报表" pId="178" order="1" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1394442635218" />
+  <parment id="185" name="太阳能指标日报表" pId="183" order="1" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1393836802156" />
+  <parment id="186" name="太阳能指标月报表" pId="183" order="2" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1393916612234" />
+  <parment id="187" name="太阳能指标年报表" pId="183" order="3" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1393931730421" />
+  <parment id="188" name="电量指标日报表" pId="184" order="1" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1394442688750" />
+  <parment id="190" name="太阳能指标日报表" pId="189" order="1" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1393837030046" />
+  <parment id="191" name="太阳能指标月报表" pId="189" order="2" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1393923309765" />
+  <parment id="192" name="太阳能指标年报表" pId="189" order="3" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1393931720578" />
+  <parment id="193" name="电量指标" pId="96" order="2" visible="1" owner=",admin," FileName="" />
+  <parment id="194" name="电量指标日报表" pId="193" order="1" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1394443090843" />
+  <parment id="195" name="电量指标月报表" pId="175" order="2" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1394533637875" />
+  <parment id="196" name="电量指标年报表" pId="175" order="3" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1394533810541" />
+  <parment id="197" name="电量指标月报表" pId="178" order="2" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1394533749984" />
+  <parment id="198" name="电量指标年报表" pId="178" order="3" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1394534477812" />
+  <parment id="199" name="电量指标月报表" pId="184" order="2" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1394533788203" />
+  <parment id="200" name="电量指标年报表" pId="184" order="3" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1394534507687" />
+  <parment id="201" name="电量指标月报表" pId="193" order="2" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1394533810531" />
+  <parment id="202" name="电量指标年报表" pId="193" order="3" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1394534535750" />
+  <parment id="203" name="电站电量报表" pId="175" order="4" visible="1" owner=",admin," FileName="../SisReport/ShowReportMX.aspx?id=C_JTZB" />
+  <parment id="204" name="电站电量报表" pId="178" order="4" visible="1" owner=",admin," FileName="../SisReport/ShowReportMX.aspx?id=C_DIMIAN" />
+  <parment id="205" name="电站电量报表" pId="184" order="4" visible="1" owner=",admin," FileName="../SisReport/ShowReportMX.aspx?id=C_BAPV" />
+  <parment id="206" name="电站电量报表" pId="193" order="4" visible="1" owner=",admin," FileName="../SisReport/ShowReportMX.aspx?id=D_CN" />
+  <parment id="207" name="设备运行指标" pId="6" order="3" visible="1" owner=",admin," FileName="" />
+  <parment id="208" name="设备运行指标日报表" pId="207" order="1" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1395386980906" />
+  <parment id="209" name="设备运行指标月报表" pId="207" order="2" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1395387210515" />
+  <parment id="210" name="设备运行指标年报表" pId="207" order="3" visible="1" owner=",admin," FileName="../SisReport/ShowReport.aspx?id=1395387281781" />
 </rquuest>

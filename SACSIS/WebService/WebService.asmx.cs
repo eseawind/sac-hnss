@@ -32,16 +32,8 @@ namespace SACSIS.WebService
             string dtZr =DateTime.Now.ToString("yyyy-MM-dd 0:00:00").ToString();
             string dtJr = DateTime.Now.ToString();
 
-            //string sql = " select t_base_points_org.t_orgid,t_base_points_org.T_POWERTAG,t_base_plant.t_plantname as t_comname, " +
-            //"t_base_plant.t_plantid as T_COMID from t_base_points_org  inner join t_base_plant on " +
-            //"t_base_points_org.t_orgid=t_base_plant.t_plantid and t_base_plant.t_plantid='" + pName + "' " +
-            //"order by   t_base_plant.t_plantid asc";
- //           string sql = "select sum(D_VALUE),to_char(T_time,'HH24') s2 from T_INFO_HISTVALUE where "+
- //"T_TAG=(select t_base_points_org.T_POWERTAG from t_base_points_org where "+
- //  " t_base_points_org.t_orgid='" + pName + "' )  and " +
- //    "T_TIME between to_date('" + dtZr + "','yyyy-MM-dd HH24:MI:SS') and " +
- //     "to_date('" + dtJr + "','yyyy-MM-dd HH24:MI:SS') group by to_char(T_time,'HH24') order by s2 asc";
-            string sql = "select max(D_VALUE),to_char(T_time,'HH24') s2 from T_INFO_HISTVALUE where " +
+
+            string sql = "select max(D_VALUE),to_char(T_time,'HH24') s2 from t_info_histvalue where " +
  "T_TAG=(select t_base_points_org.T_POWERTAG from t_base_points_org where " +
    " t_base_points_org.t_orgid='" + pName + "' )  and " +
      "T_TIME between to_date('" + dtZr + "','yyyy-MM-dd HH24:MI:SS') and " +

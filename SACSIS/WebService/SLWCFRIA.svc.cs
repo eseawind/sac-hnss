@@ -38,12 +38,10 @@ namespace SACSIS.WebService
         [OperationContract]
         public string GetData(string id)
         {
+            BLL.BLLDefault bll_df = new BLL.BLLDefault();
             DBLink dl = new DBLink();
             string errMsg = "";
             string sql = "select * from t_info_graphic where t_graphicid ='"+id+"'";
-//           string sql ="select g.t_controlid,g.t_tag from t_info_histvalue h "+
-// "inner join t_info_graphic g on h.t_tag =g.t_tag "+
-//"and  g.t_graphicid ='1' group by  g.t_controlid,g.t_tag";
 
 
             DataTable dtt = new DataTable();//select * from t_info_graphic where t_graphicid ='1' order by t_controlid asc
@@ -52,11 +50,9 @@ namespace SACSIS.WebService
             
             for (int i = 0; i < dt.Rows.Count; i++)
             {//select * from (select * from t_info_histvalue where T_TAG='GHPV_1_000WG001' order by t_time desc) where ROWNUM =1 order by ROWNUM asc
-                string sql_value = "select * from (select * from t_info_histvalue where T_TAG='" + dt.Rows[i]["t_tag"].ToString() + "' order by t_time desc) where ROWNUM =1 order by ROWNUM asc";
-                DateTime dt1 = DateTime.Now;
-                dtt = dl.RunDataTable(sql_value, out errMsg);
-                DateTime dt2 = DateTime.Now;
-                double num = (dt2 - dt1).TotalSeconds;
+               // string sql_value = "select * from (select * from t_info_histvalue where T_TAG='" + dt.Rows[i]["t_tag"].ToString() + "' order by t_time desc) where ROWNUM =1 order by ROWNUM asc";
+                
+                dtt = bll_df.GetDT(dt.Rows[i]["t_tag"].ToString(),DateTime.Now);
                 if ((dtt.Rows.Count > 0) && (dtt.Rows[0]["D_VALUE"].ToString() !=""))
                 {
 

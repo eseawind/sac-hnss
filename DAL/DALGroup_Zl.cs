@@ -91,6 +91,8 @@ namespace DAL
         {
             string errMsg = "";
             DataTable dt = null;
+
+            DAL.DALDefault dal_df = new DALDefault();
             string sql = "";
             if (id == "1")
             {
@@ -126,14 +128,14 @@ namespace DAL
 
                 for (int i = 0; i < dt.Rows.Count; i++)
                 {
-                    DataTable DTT = null;//T_INFO_REALTIMEVALUE原本是实时表
+                    DataTable DTT = dal_df.GetDT(dt.Rows[i]["T_POWERTAG"].ToString(), DateTime.Now);
+//                    DataTable DTT = null;//T_INFO_REALTIMEVALUE原本是实时表
 
-                    string sql1 = "select * from (select * from t_info_histvalue where T_TAG='" + dt.Rows[i]["T_POWERTAG"].ToString() + "' and " +
-"t_time<=to_date('" + DateTime.Now + "','yyyy-MM-dd HH24:MI:SS') order by t_time desc) where ROWNUM =1 order by ROWNUM asc";
-                    DTT = dl.RunDataTable(sql1, out errMsg);
+//                    string sql1 = "select * from (select * from t_info_histvalue where T_TAG='" + dt.Rows[i]["T_POWERTAG"].ToString() + "' and " +
+//"t_time<=to_date('" + DateTime.Now + "','yyyy-MM-dd HH24:MI:SS') order by t_time desc) where ROWNUM =1 order by ROWNUM asc";
+//                    DTT = dl.RunDataTable(sql1, out errMsg);
                     if (DTT.Rows.Count > 0)
                     {
-
                         ld.Add(Math.Round(Convert.ToDouble(DTT.Rows[0]["D_VALUE"].ToString()), 2));
                             
                             ht.Add("name", dt.Rows[i]["t_comname"].ToString());
@@ -147,5 +149,7 @@ namespace DAL
             }
             return listdata;
         }
+
+
     }
 }

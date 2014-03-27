@@ -139,9 +139,7 @@
                 initGL(rz.rz, "div6");
                 $("#dlD").html(data.d_dl);
                 $("#dlM").html(data.y_dl);
-                if (vars["plantid"] != "T_QHHNZ") {
-                    initChart("aa");
-                }
+                initChart(vars["plantid"]);
             }, 'json');
         }
 
@@ -198,7 +196,7 @@
                 contentType: "application/json; charset=utf-8",
                 type: "POST",
                 dataType: "json",
-                data: "{'pName':'T_GZJSQ'}", // 
+                data: "{'pName':'"+pName+"'}", // 
                 beforeSend: function () {
                 },
                 success: function (json) {

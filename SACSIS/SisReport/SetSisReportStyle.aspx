@@ -21,8 +21,8 @@
         var Request = new Object();
         Request = GetRequest();
 
-        var orgId = ''; //  Request['orgID']; 
-        var treeId = ''; //Request['TREEID'];
+        var orgId =   Request['orgID']; 
+        var treeId =Request['TREEID'];
 
         var globalKeyId = "";      //keyid关键字
         var globalReportName = ""; //报表描述

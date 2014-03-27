@@ -18,6 +18,11 @@ C:\Documents and Settings\Administrator\桌面\HNSIS\SAC.Helper\bin\Debug\SAC.He
 C:\Documents and Settings\Administrator\桌面\HNSIS\SAC.Helper\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Administrator\桌面\HNSIS\SAC.Helper\obj\Debug\SAC.Helper.dll
 C:\Documents and Settings\Administrator\桌面\HNSIS\SAC.Helper\obj\Debug\SAC.Helper.pdb
+E:\WORK\sac-hnss\SAC.Helper\bin\Debug\SAC.Helper.dll
+E:\WORK\sac-hnss\SAC.Helper\bin\Debug\SAC.Helper.pdb
+E:\WORK\sac-hnss\SAC.Helper\obj\Debug\ResolveAssemblyReference.cache
+E:\WORK\sac-hnss\SAC.Helper\obj\Debug\SAC.Helper.dll
+E:\WORK\sac-hnss\SAC.Helper\obj\Debug\SAC.Helper.pdb
 C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.Helper\bin\Debug\SAC.Helper.dll
 C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.Helper\bin\Debug\SAC.Helper.pdb
 C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.Helper\obj\Debug\ResolveAssemblyReference.cache

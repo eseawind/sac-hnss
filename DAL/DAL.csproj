@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -51,6 +52,7 @@
     <Compile Include="DALBASE_PLANT.cs" />
     <Compile Include="DALDailyConsumption.cs" />
     <Compile Include="DALDefault.cs" />
+    <Compile Include="DALGenerating.cs" />
     <Compile Include="DALGroup_Zl.cs" />
     <Compile Include="DALPowerTrends.cs" />
     <Compile Include="DALPubMehtod.cs" />
@@ -60,6 +62,7 @@
     <Compile Include="DALSBLB.cs" />
     <Compile Include="DALSisReport.cs" />
     <Compile Include="DALUtilityMehtod.cs" />
+    <Compile Include="FormDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

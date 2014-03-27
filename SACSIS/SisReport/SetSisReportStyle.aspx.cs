@@ -19,13 +19,13 @@ namespace SACSIS.SisReport
             if (Request["treeID"] != null)
                 treeID = Request["treeID"];
 
-            if (treeID != "")
-            {
+            //if (treeID != "")
+            //{
                 if (param == "GetIdList")
                 {
                     this.GetIList(treeID);// GetIList(treeID);
                 }
-            }
+            //}
         }
 
         //获取风机期数据

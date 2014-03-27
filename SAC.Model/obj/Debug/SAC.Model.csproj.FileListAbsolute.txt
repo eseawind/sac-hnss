@@ -28,6 +28,11 @@ D:\work\汉能集团\HNSIS\HNSIS\SAC.Model\bin\Debug\SAC.Model.pdb
 D:\work\汉能集团\HNSIS\HNSIS\SAC.Model\obj\Debug\ResolveAssemblyReference.cache
 D:\work\汉能集团\HNSIS\HNSIS\SAC.Model\obj\Debug\SAC.Model.dll
 D:\work\汉能集团\HNSIS\HNSIS\SAC.Model\obj\Debug\SAC.Model.pdb
+E:\WORK\sac-hnss\SAC.Model\bin\Debug\SAC.Model.dll
+E:\WORK\sac-hnss\SAC.Model\bin\Debug\SAC.Model.pdb
+E:\WORK\sac-hnss\SAC.Model\obj\Debug\ResolveAssemblyReference.cache
+E:\WORK\sac-hnss\SAC.Model\obj\Debug\SAC.Model.dll
+E:\WORK\sac-hnss\SAC.Model\obj\Debug\SAC.Model.pdb
 C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.Model\bin\Debug\SAC.Model.dll
 C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.Model\bin\Debug\SAC.Model.pdb
 C:\Documents and Settings\Administrator\桌面\SACSIS\SAC.Model\obj\Debug\ResolveAssemblyReference.cache

@@ -51,6 +51,18 @@ C:\Documents and Settings\Administrator\桌面\HNSIS\DAL\bin\Debug\SAC.Helper.pd
 C:\Documents and Settings\Administrator\桌面\HNSIS\DAL\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Administrator\桌面\HNSIS\DAL\obj\Debug\DAL.dll
 C:\Documents and Settings\Administrator\桌面\HNSIS\DAL\obj\Debug\DAL.pdb
+E:\WORK\sac-hnss\DAL\bin\Debug\DAL.dll
+E:\WORK\sac-hnss\DAL\bin\Debug\DAL.pdb
+E:\WORK\sac-hnss\DAL\bin\Debug\Oracle.DataAccess.dll
+E:\WORK\sac-hnss\DAL\bin\Debug\SAC.DBOperations.dll
+E:\WORK\sac-hnss\DAL\bin\Debug\SAC.Helper.dll
+E:\WORK\sac-hnss\DAL\bin\Debug\SAC.Model.dll
+E:\WORK\sac-hnss\DAL\bin\Debug\SAC.DBOperations.pdb
+E:\WORK\sac-hnss\DAL\bin\Debug\SAC.Helper.pdb
+E:\WORK\sac-hnss\DAL\bin\Debug\SAC.Model.pdb
+E:\WORK\sac-hnss\DAL\obj\Debug\ResolveAssemblyReference.cache
+E:\WORK\sac-hnss\DAL\obj\Debug\DAL.dll
+E:\WORK\sac-hnss\DAL\obj\Debug\DAL.pdb
 C:\Documents and Settings\Administrator\桌面\SACSIS\DAL\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Administrator\桌面\SACSIS\DAL\bin\Debug\DAL.dll
 C:\Documents and Settings\Administrator\桌面\SACSIS\DAL\bin\Debug\DAL.pdb

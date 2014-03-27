@@ -55,10 +55,19 @@ namespace BLL
             return dr.GetPower(id, d_time,num);
         }
 
+        public double GetPowerDianzhan(string id, string s_time, string e_time)
+        {
+            return dr.GetPowerDianzhan(id, s_time, e_time);
+        }
         public double GetPowerByDianzhan(string id, DateTime d_time)
         {
             return dr.GetPowerByDianzhan(id, d_time);
 
+        }
+
+        public DataTable GetDT(string id, DateTime t_time)
+        {
+            return dr.GetDT(id,t_time);
         }
         #endregion
 

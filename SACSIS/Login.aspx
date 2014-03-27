@@ -65,7 +65,8 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="3" valign="top">
+                                <td colspan="3" valign="top" align="center">
+                                    <a href="ActiveX/owc11.exe">报表插件</a>
                                 </td>
                             </tr>
                         </table>

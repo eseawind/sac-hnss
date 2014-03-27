@@ -66,7 +66,7 @@ namespace SACSIS.StationList
             for (int i = 0; i < str_shuzu.Length; i++)
             {
 
-                string sql = "select * from (select * from t_info_histvalue where T_TAG='" + str_shuzu[i] + "' and " +
+                string sql = "select * from (select * from T_INFO_REALTIMEVALUE where T_TAG='" + str_shuzu[i] + "' and " +
 "t_time>to_date('" + DateTime.Now.Date + "','yyyy-MM-dd HH24:MI:SS')  and  t_time<=to_date('" + DateTime.Now + "','yyyy-MM-dd HH24:MI:SS') order by t_time desc) where ROWNUM =1 order by ROWNUM asc";
                 dt = dl.RunDataTable(sql, out errMsg);
                 if ((dt.Rows.Count > 0) && (dt.Rows[0]["D_VALUE"].ToString().Trim() != ""))

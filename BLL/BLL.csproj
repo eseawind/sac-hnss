@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -42,11 +43,13 @@
   <ItemGroup>
     <Compile Include="BLLDailyConsumption.cs" />
     <Compile Include="BLLDefault.cs" />
+    <Compile Include="BLLGenerating.cs" />
     <Compile Include="BLLGroup_ZL.cs" />
     <Compile Include="BLLPowerTrends.cs" />
     <Compile Include="BLLReport.cs" />
     <Compile Include="BLLRole.cs" />
     <Compile Include="BLLSBLB.cs" />
+    <Compile Include="FormBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

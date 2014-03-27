@@ -24,6 +24,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <FilesToIncludeForPublish>AllFilesInTheProject</FilesToIncludeForPublish>
+    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -35,6 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.JScript" />
     <Reference Include="Microsoft.Office.Interop.Owc11, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
       <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>False</EmbedInteropTypes>
@@ -71,6 +73,7 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="ActiveX\owc11.exe" />
     <Content Include="Admin\EditMenu.xml">
       <SubType>Designer</SubType>
     </Content>
@@ -80,7 +83,20 @@
     <Content Include="Admin\ManageRoleUser.aspx" />
     <Content Include="ClientBin\SAC.DQYCT.xap" />
     <Content Include="Connect.aspx" />
+    <Content Include="css\main.css" />
     <Content Include="css\SIS.css" />
+    <Content Include="css\themes\common\anchor.gif" />
+    <Content Include="css\themes\common\blank.gif" />
+    <Content Include="css\themes\common\flash.gif" />
+    <Content Include="css\themes\common\loading.gif" />
+    <Content Include="css\themes\common\media.gif" />
+    <Content Include="css\themes\common\rm.gif" />
+    <Content Include="css\themes\default\background.png" />
+    <Content Include="css\themes\default\default.css" />
+    <Content Include="css\themes\default\default.png" />
+    <Content Include="css\themes\qq\editor.gif" />
+    <Content Include="css\themes\qq\qq.css" />
+    <Content Include="css\themes\simple\simple.css" />
     <Content Include="css\update8.css" />
     <Content Include="css\zTreeStyle\djxt.css" />
     <Content Include="css\zTreeStyle\img\diy\1_close.png" />
@@ -99,6 +115,7 @@
     <Content Include="css\zTreeStyle\img\zTreeStandard.png" />
     <Content Include="css\zTreeStyle\zTreeStyle.css" />
     <Content Include="Datafile\Get_Groupzl_Data.aspx" />
+    <Content Include="Data\UpData.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="DQYCT\DQYCT.aspx" />
     <Content Include="DQYCT\NXWZ_DQ.aspx" />
@@ -625,6 +642,106 @@
     <Content Include="Js\jQueryEasyUI\themes\dark-hive\tree.css" />
     <Content Include="Js\jQueryEasyUI\themes\dark-hive\validatebox.css" />
     <Content Include="Js\jQueryEasyUI\themes\dark-hive\window.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\accordion.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\calendar.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\combo.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\combobox.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\datagrid.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\datebox.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\dialog.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\easyui.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\accordion_arrows.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\accordion_collapse.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\accordion_expand.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\blank.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\button_a_bg.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\button_plain_hover.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\button_span_bg.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\calendar_arrows.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\calendar_nextmonth.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\calendar_nextyear.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\calendar_prevmonth.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\calendar_prevyear.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\combo_arrow.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\combo_arrow.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\datagrid_header_bg.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\datagrid_icons.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\datagrid_row_collapse.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\datagrid_row_expand.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\datagrid_sort_asc.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\datagrid_sort_desc.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\datagrid_title_bg.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\datebox_arrow.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\layout_arrows.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\linkbutton_bg.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\loading.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\menu.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\menu_arrows.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\menu_downarrow.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\menu_rightarrow.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\menu_sep.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\menu_split_downarrow.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\messager_error.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\messager_icons.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\messager_info.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\messager_question.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\messager_warning.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\pagination_first.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\pagination_icons.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\pagination_last.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\pagination_load.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\pagination_loading.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\pagination_next.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\pagination_prev.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\panel_loading.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\panel_title.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\panel_tools.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\panel_tools.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\panel_tool_collapse.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\panel_tool_expand.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\searchbox_button.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\slider_handle.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\spinner_arrows.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\spinner_arrow_down.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\spinner_arrow_up.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\tabs_active.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\tabs_close.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\tabs_enabled.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\tabs_icons.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\tabs_leftarrow.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\tabs_rightarrow.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\tree_arrows.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\tree_checkbox_0.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\tree_checkbox_1.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\tree_checkbox_2.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\tree_dnd_no.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\tree_dnd_yes.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\tree_elbow.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\tree_file.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\tree_folder.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\tree_folder_open.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\tree_icons.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\tree_loading.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\validatebox_arrows.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\validatebox_pointer.gif" />
+    <Content Include="Js\jQueryEasyUI\themes\default\images\validatebox_warning.png" />
+    <Content Include="Js\jQueryEasyUI\themes\default\layout.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\linkbutton.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\menu.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\menubutton.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\messager.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\pagination.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\panel.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\progressbar.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\propertygrid.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\searchbox.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\slider.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\spinner.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\splitbutton.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\tabs.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\tree.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\validatebox.css" />
+    <Content Include="Js\jQueryEasyUI\themes\default\window.css" />
     <Content Include="Js\jQueryEasyUI\themes\gray\accordion.css" />
     <Content Include="Js\jQueryEasyUI\themes\gray\calendar.css" />
     <Content Include="Js\jQueryEasyUI\themes\gray\combo.css" />
@@ -952,6 +1069,13 @@
     <Content Include="Js\jQueryZtree\jquery.ztree.exhide-3.5.min.js" />
     <Content Include="Js\jQueryZtree\json.js" />
     <Content Include="Js\json.js" />
+    <Content Include="Js\kindeditor-min.js" />
+    <Content Include="Js\kindeditor.js" />
+    <Content Include="Js\lang\ar.js" />
+    <Content Include="Js\lang\en.js" />
+    <Content Include="Js\lang\ko.js" />
+    <Content Include="Js\lang\zh_CN.js" />
+    <Content Include="Js\lang\zh_TW.js" />
     <Content Include="Js\My97DatePicker\calendar.js" />
     <Content Include="Js\My97DatePicker\config.js" />
     <Content Include="Js\My97DatePicker\lang\en.js" />
@@ -972,10 +1096,10 @@
     <Content Include="Main.aspx" />
     <Content Include="ProductOverview\Fb-zl.aspx" />
     <Content Include="ProductOverview\Group-zl.aspx" />
-    <Content Include="Silverlight.js" />
     <Content Include="SisReport\ReportTreeProxy.aspx" />
     <Content Include="SisReport\SetSisReportStyle.aspx" />
     <Content Include="SisReport\ShowReport.aspx" />
+    <Content Include="SisReport\ShowReportMX.aspx" />
     <Content Include="SisReport\SisReportProxy.aspx" />
     <Content Include="StationList\Czxxylb.aspx" />
     <Content Include="StationList\GZJSQNBQ.aspx" />
@@ -983,6 +1107,7 @@
     <Content Include="StationList\SY_CZ.aspx" />
     <Content Include="StationList\WiringDiagram.aspx" />
     <Content Include="Tend\DailyConsumption.aspx" />
+    <Content Include="Tend\Generating.aspx" />
     <Content Include="Tend\PowerTrends.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -1080,6 +1205,13 @@
     <Compile Include="Datafile\Get_Groupzl_Data.aspx.designer.cs">
       <DependentUpon>Get_Groupzl_Data.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Data\UpData.aspx.cs">
+      <DependentUpon>UpData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Data\UpData.aspx.designer.cs">
+      <DependentUpon>UpData.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1151,6 +1283,13 @@
     <Compile Include="SisReport\ShowReport.aspx.designer.cs">
       <DependentUpon>ShowReport.aspx</DependentUpon>
     </Compile>
+    <Compile Include="SisReport\ShowReportMX.aspx.cs">
+      <DependentUpon>ShowReportMX.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SisReport\ShowReportMX.aspx.designer.cs">
+      <DependentUpon>ShowReportMX.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SisReport\SisReportProxy.aspx.cs">
       <DependentUpon>SisReportProxy.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1200,6 +1339,13 @@
     <Compile Include="Tend\DailyConsumption.aspx.designer.cs">
       <DependentUpon>DailyConsumption.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Tend\Generating.aspx.cs">
+      <DependentUpon>Generating.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tend\Generating.aspx.designer.cs">
+      <DependentUpon>Generating.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Tend\PowerTrends.aspx.cs">
       <DependentUpon>PowerTrends.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1245,6 +1391,7 @@
     <None Include="Js\jQueryEasyUI\demo\tree\tree_data2.json" />
     <None Include="Js\jQueryEasyUI\themes\black\images\Thumbs.db" />
     <None Include="Js\jQueryEasyUI\themes\bootstrap\images\Thumbs.db" />
+    <None Include="Js\jQueryEasyUI\themes\default\images\Thumbs.db" />
     <None Include="Js\jQueryEasyUI\themes\gray\images\Thumbs.db" />
     <None Include="Js\jQueryEasyUI\themes\metro\images\Thumbs.db" />
   </ItemGroup>

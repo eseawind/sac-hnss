@@ -235,10 +235,10 @@ namespace DAL
 
             var query = "";
             
-            if(treeId !="" && orgId!="")
-                query="SELECT * FROM T_INFO_SISREPORT WHERE reportid='" + rptId + "' AND ORGID='" + orgId +
-                        "' AND TREEID='" + treeId + "'";
-            else
+            //if(treeId !="" && orgId!="")
+            //    query="SELECT * FROM T_INFO_SISREPORT WHERE reportid='" + rptId + "' AND ORGID='" + orgId +
+            //            "' AND TREEID='" + treeId + "'";
+            //else
                 query="SELECT * FROM T_INFO_SISREPORT WHERE reportid='" + rptId + "'";
             
 
@@ -314,7 +314,7 @@ namespace DAL
             string sql = "";
             
             if(treeID!="")
-                sql="select distinct REPORTID,REPORTNAME,REPORTTYPE,REPORTNAME  from T_INFO_SISREPORT where treeid ='" + treeID + "'";// "select * from T_INFO_SISREPORT where treeid ='" + treeID + "'";
+                sql = "select distinct REPORTID,REPORTNAME,REPORTTYPE,REPORTNAME  from T_INFO_SISREPORT where REPORTID ='" + treeID + "'";// "select * from T_INFO_SISREPORT where treeid ='" + treeID + "'";
             else
                 sql = "select distinct REPORTID,REPORTNAME,REPORTTYPE,REPORTNAME  from T_INFO_SISREPORT ";
             dt = dl.RunDataTable(sql, out errMsg);

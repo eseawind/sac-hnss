@@ -56,6 +56,19 @@ C:\Documents and Settings\Administrator\桌面\HNSIS\BLL\bin\Debug\SAC.DBOperati
 C:\Documents and Settings\Administrator\桌面\HNSIS\BLL\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Administrator\桌面\HNSIS\BLL\obj\Debug\BLL.dll
 C:\Documents and Settings\Administrator\桌面\HNSIS\BLL\obj\Debug\BLL.pdb
+E:\WORK\sac-hnss\BLL\bin\Debug\BLL.dll
+E:\WORK\sac-hnss\BLL\bin\Debug\BLL.pdb
+E:\WORK\sac-hnss\BLL\bin\Debug\DAL.dll
+E:\WORK\sac-hnss\BLL\bin\Debug\SAC.Helper.dll
+E:\WORK\sac-hnss\BLL\bin\Debug\SAC.Model.dll
+E:\WORK\sac-hnss\BLL\bin\Debug\SAC.DBOperations.dll
+E:\WORK\sac-hnss\BLL\bin\Debug\DAL.pdb
+E:\WORK\sac-hnss\BLL\bin\Debug\SAC.Helper.pdb
+E:\WORK\sac-hnss\BLL\bin\Debug\SAC.Model.pdb
+E:\WORK\sac-hnss\BLL\bin\Debug\SAC.DBOperations.pdb
+E:\WORK\sac-hnss\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\WORK\sac-hnss\BLL\obj\Debug\BLL.dll
+E:\WORK\sac-hnss\BLL\obj\Debug\BLL.pdb
 C:\Documents and Settings\Administrator\桌面\SACSIS\BLL\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Administrator\桌面\SACSIS\BLL\bin\Debug\BLL.dll
 C:\Documents and Settings\Administrator\桌面\SACSIS\BLL\bin\Debug\BLL.pdb
